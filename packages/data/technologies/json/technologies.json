@@ -561,13 +561,6 @@
         "category": "Formatter"
       },
       {
-        "id": "biome",
-        "name": "Biome",
-        "href": "https://biomejs.dev/",
-        "group": "formatter",
-        "category": "Formatter"
-      },
-      {
         "id": "black",
         "name": "Black",
         "href": "https://black.readthedocs.io/",
@@ -598,13 +591,6 @@
         "id": "eslint",
         "name": "ESLint",
         "href": "https://eslint.org/",
-        "group": "linter",
-        "category": "Linter"
-      },
-      {
-        "id": "biome",
-        "name": "Biome",
-        "href": "https://biomejs.dev/",
         "group": "linter",
         "category": "Linter"
       },
@@ -649,6 +635,33 @@
         "href": "https://www.shellcheck.net/",
         "group": "linter",
         "category": "Linter"
+      }
+    ]
+  },
+  {
+    "id": "tool-chain",
+    "category": "Tool Chain",
+    "technologies": [
+      {
+        "id": "biome",
+        "name": "Biome",
+        "href": "https://biomejs.dev/",
+        "group": "tool-chain",
+        "category": "Tool Chain"
+      },
+      {
+        "id": "oxc",
+        "name": "OXC",
+        "href": "https://oxc-project.github.io",
+        "group": "tool-chain",
+        "category": "Tool Chain"
+      },
+      {
+        "id": "vite",
+        "name": "Vite",
+        "href": "https://vitejs.dev",
+        "group": "tool-chain",
+        "category": "Tool Chain"
       }
     ]
   },
@@ -783,6 +796,26 @@
     ]
   },
   {
+    "id": "complier",
+    "category": "Complier",
+    "technologies": [
+      {
+        "id": "babel",
+        "name": "Babel",
+        "href": "https://babeljs.io",
+        "group": "complier",
+        "category": "Complier"
+      },
+      {
+        "id": "swc",
+        "name": "SWC",
+        "href": "https://swc.rs",
+        "group": "complier",
+        "category": "Complier"
+      }
+    ]
+  },
+  {
     "id": "cli-frameworks",
     "category": "CLI Frameworks",
     "technologies": [
@@ -804,13 +837,6 @@
         "id": "commander",
         "name": "Commander",
         "href": "https://github.com/tj/commander.js/",
-        "group": "cli-frameworks",
-        "category": "CLI Frameworks"
-      },
-      {
-        "id": "oclif",
-        "name": "OCLIF",
-        "href": "https://oclif.io/",
         "group": "cli-frameworks",
         "category": "CLI Frameworks"
       },
@@ -1592,6 +1618,40 @@
         "href": "https://pytorch.org/",
         "group": "machine-learning-frameworks",
         "category": "Machine Learning Frameworks"
+      },
+      {
+        "id": "ml5",
+        "name": "ml5",
+        "href": "https://ml5js.org/",
+        "group": "machine-learning-frameworks",
+        "category": "Machine Learning Frameworks"
+      },
+      {
+        "id": "brain-js",
+        "name": "brain.js",
+        "href": "https://brain.js.org",
+        "group": "machine-learning-frameworks",
+        "category": "Machine Learning Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "neural-networks-frameworks",
+    "category": "Neural Networks Frameworks",
+    "technologies": [
+      {
+        "id": "mind-js",
+        "name": "mind.js",
+        "href": "https://stevenmiller888.github.io/mindjs.net/",
+        "group": "neural-networks-frameworks",
+        "category": "Neural Networks Frameworks"
+      },
+      {
+        "id": "synaptic-js",
+        "name": "synaptic.js",
+        "href": "https://caza.la/synaptic",
+        "group": "neural-networks-frameworks",
+        "category": "Neural Networks Frameworks"
       }
     ]
   },

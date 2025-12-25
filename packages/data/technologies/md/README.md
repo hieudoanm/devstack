@@ -133,7 +133,6 @@
 | Group | Category | Name | URL |
 | ----- | -------- | ---- | --- |
 | formatter | Formatter | Prettier | [Prettier](https://prettier.io/) |
-| formatter | Formatter | Biome | [Biome](https://biomejs.dev/) |
 | formatter | Formatter | Black | [Black](https://black.readthedocs.io/) |
 | formatter | Formatter | gofmt | [gofmt](https://pkg.go.dev/cmd/gofmt) |
 | formatter | Formatter | clang-format | [clang-format](https://clang.llvm.org/docs/ClangFormat.html) |
@@ -144,13 +143,21 @@
 | Group | Category | Name | URL |
 | ----- | -------- | ---- | --- |
 | linter | Linter | ESLint | [ESLint](https://eslint.org/) |
-| linter | Linter | Biome | [Biome](https://biomejs.dev/) |
 | linter | Linter | Stylelint | [Stylelint](https://stylelint.io/) |
 | linter | Linter | Pylint | [Pylint](https://pylint.org/) |
 | linter | Linter | Flake8 | [Flake8](https://flake8.pycqa.org/) |
 | linter | Linter | Ruff | [Ruff](https://docs.astral.sh/ruff/) |
 | linter | Linter | Hadolint | [Hadolint](https://github.com/hadolint/hadolint) |
 | linter | Linter | ShellCheck | [ShellCheck](https://www.shellcheck.net/) |
+
+
+## Tool Chain
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| tool-chain | Tool Chain | Biome | [Biome](https://biomejs.dev/) |
+| tool-chain | Tool Chain | OXC | [OXC](https://oxc-project.github.io) |
+| tool-chain | Tool Chain | Vite | [Vite](https://vitejs.dev) |
 
 
 ## Unit Test
@@ -187,6 +194,14 @@
 | bundler | Bundler | Webpack | [Webpack](https://webpack.js.org/) |
 
 
+## Complier
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| complier | Complier | Babel | [Babel](https://babeljs.io) |
+| complier | Complier | SWC | [SWC](https://swc.rs) |
+
+
 ## CLI Frameworks
 
 | Group | Category | Name | URL |
@@ -194,7 +209,6 @@
 | cli-frameworks | CLI Frameworks | oclif | [oclif](https://oclif.io/) |
 | cli-frameworks | CLI Frameworks | cobra | [cobra](https://cobra.dev/) |
 | cli-frameworks | CLI Frameworks | Commander | [Commander](https://github.com/tj/commander.js/) |
-| cli-frameworks | CLI Frameworks | OCLIF | [OCLIF](https://oclif.io/) |
 | cli-frameworks | CLI Frameworks | Yargs | [Yargs](https://yargs.js.org/) |
 
 
@@ -404,6 +418,16 @@
 | ----- | -------- | ---- | --- |
 | machine-learning-frameworks | Machine Learning Frameworks | TensorFlow | [TensorFlow](https://www.tensorflow.org/) |
 | machine-learning-frameworks | Machine Learning Frameworks | PyTorch | [PyTorch](https://pytorch.org/) |
+| machine-learning-frameworks | Machine Learning Frameworks | ml5 | [ml5](https://ml5js.org/) |
+| machine-learning-frameworks | Machine Learning Frameworks | brain.js | [brain.js](https://brain.js.org) |
+
+
+## Neural Networks Frameworks
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| neural-networks-frameworks | Neural Networks Frameworks | mind.js | [mind.js](https://stevenmiller888.github.io/mindjs.net/) |
+| neural-networks-frameworks | Neural Networks Frameworks | synaptic.js | [synaptic.js](https://caza.la/synaptic) |
 
 
 ## ORM
