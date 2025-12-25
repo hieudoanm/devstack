@@ -1,12 +1,12 @@
 import type { NextConfig } from 'next';
 
 const NODE_ENV = process.env.NODE_ENV ?? 'development';
-const devstack = 'md';
+const BASE_PATH = 'devstack';
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
   reactStrictMode: true,
-  basePath: NODE_ENV === 'development' ? '' : `/${devstack}`,
+  basePath: NODE_ENV === 'development' ? '' : `/${BASE_PATH}`,
   output: NODE_ENV === 'development' ? 'standalone' : 'export',
   distDir: NODE_ENV === 'development' ? '.next' : '../../docs',
 };
