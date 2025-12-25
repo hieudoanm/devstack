@@ -198,6 +198,31 @@
 | cli-frameworks | CLI Frameworks | Yargs     | [Yargs](https://yargs.js.org/)                   |
 
 
+## CSS Preprocessor
+
+| Group            | Category         | Name    | URL                             |
+| ---------------- | ---------------- | ------- | ------------------------------- |
+| css-preprocessor | CSS Preprocessor | PostCSS | [PostCSS](https://postcss.org/) |
+| css-preprocessor | CSS              | SASS    | [SASS](https://sass-lang.com/)  |
+
+
+## CSS in JS
+
+| Group     | Category  | Name              | URL                                                   |
+| --------- | --------- | ----------------- | ----------------------------------------------------- |
+| css-in-js | CSS in JS | StyleX            | [StyleX](https://github.com/facebookincubator/stylex) |
+| css-in-js | CSS in JS | Emotion           | [Emotion](https://emotion.sh/docs/introduction)       |
+| css-in-js | CSS in JS | Styled Components | [Styled Components](https://styled-components.com/)   |
+
+
+## CSS Utilities
+
+| Group         | Category      | Name        | URL                                       |
+| ------------- | ------------- | ----------- | ----------------------------------------- |
+| css-utilities | CSS Utilities | TailwindCSS | [TailwindCSS](https://tailwindcss.com/)   |
+| css-utilities | CSS Utilities | NativeWind  | [NativeWind](https://www.nativewind.dev/) |
+
+
 ## CSS Components
 
 | Group          | Category       | Name            | URL                                            |
@@ -282,6 +307,20 @@
 | desktop-frameworks | Desktop Frameworks | Wails    | [Wails](https://wails.io/)              |
 | desktop-frameworks | Desktop Frameworks | Meteor   | [Meteor](https://www.meteor.com/)       |
 | desktop-frameworks | Desktop Frameworks | Quasar   | [Quasar](https://quasar.dev/)           |
+
+
+## Chart
+
+| Group | Category | Name           | URL                                                 |
+| ----- | -------- | -------------- | --------------------------------------------------- |
+| chart | Chart    | Chart.js       | [Chart.js](https://www.chartjs.org/)                |
+| chart | Chart    | Chartist       | [Chartist](https://gionkunz.github.io/chartist-js/) |
+| chart | Chart    | D3.js          | [D3.js](https://d3js.org/)                          |
+| chart | Chart    | Google Chart   | [Google Chart](https://developers.google.com/chart) |
+| chart | Chart    | HighCharts     | [HighCharts](https://www.highcharts.com/)           |
+| chart | Chart    | Plotly.js      | [Plotly.js](https://plotly.com/javascript/)         |
+| chart | Chart    | Recharts       | [Recharts](https://recharts.org/)                   |
+| chart | Chart    | TanStack Chart | [TanStack Chart](https://tanstack.com/charts)       |
 
 
 ## HTTP Frameworks

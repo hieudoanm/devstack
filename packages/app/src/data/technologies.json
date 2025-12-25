@@ -824,6 +824,73 @@
     ]
   },
   {
+    "id": "css-preprocessor",
+    "category": "CSS Preprocessor",
+    "technologies": [
+      {
+        "id": "postcss",
+        "name": "PostCSS",
+        "href": "https://postcss.org/",
+        "group": "css-preprocessor",
+        "category": "CSS Preprocessor"
+      },
+      {
+        "id": "sass",
+        "name": "SASS",
+        "href": "https://sass-lang.com/",
+        "group": "css-preprocessor",
+        "category": "CSS"
+      }
+    ]
+  },
+  {
+    "id": "css-in-js",
+    "category": "CSS in JS",
+    "technologies": [
+      {
+        "id": "stylex",
+        "name": "StyleX",
+        "href": "https://github.com/facebookincubator/stylex",
+        "group": "css-in-js",
+        "category": "CSS in JS"
+      },
+      {
+        "id": "emotion",
+        "name": "Emotion",
+        "href": "https://emotion.sh/docs/introduction",
+        "group": "css-in-js",
+        "category": "CSS in JS"
+      },
+      {
+        "id": "styled-components",
+        "name": "Styled Components",
+        "href": "https://styled-components.com/",
+        "group": "css-in-js",
+        "category": "CSS in JS"
+      }
+    ]
+  },
+  {
+    "id": "css-utilities",
+    "category": "CSS Utilities",
+    "technologies": [
+      {
+        "id": "tailwindcss",
+        "name": "TailwindCSS",
+        "href": "https://tailwindcss.com/",
+        "group": "css-utilities",
+        "category": "CSS Utilities"
+      },
+      {
+        "id": "nativewind",
+        "name": "NativeWind",
+        "href": "https://www.nativewind.dev/",
+        "group": "css-utilities",
+        "category": "CSS Utilities"
+      }
+    ]
+  },
+  {
     "id": "css-components",
     "category": "CSS Components",
     "technologies": [
@@ -1170,6 +1237,68 @@
         "href": "https://quasar.dev/",
         "group": "desktop-frameworks",
         "category": "Desktop Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "chart",
+    "category": "Chart",
+    "technologies": [
+      {
+        "id": "chart-js",
+        "name": "Chart.js",
+        "href": "https://www.chartjs.org/",
+        "group": "chart",
+        "category": "Chart"
+      },
+      {
+        "id": "chartist",
+        "name": "Chartist",
+        "href": "https://gionkunz.github.io/chartist-js/",
+        "group": "chart",
+        "category": "Chart"
+      },
+      {
+        "id": "d3-js",
+        "name": "D3.js",
+        "href": "https://d3js.org/",
+        "group": "chart",
+        "category": "Chart"
+      },
+      {
+        "id": "google-chart",
+        "name": "Google Chart",
+        "href": "https://developers.google.com/chart",
+        "group": "chart",
+        "category": "Chart"
+      },
+      {
+        "id": "highcharts",
+        "name": "HighCharts",
+        "href": "https://www.highcharts.com/",
+        "group": "chart",
+        "category": "Chart"
+      },
+      {
+        "id": "plotly-js",
+        "name": "Plotly.js",
+        "href": "https://plotly.com/javascript/",
+        "group": "chart",
+        "category": "Chart"
+      },
+      {
+        "id": "recharts",
+        "name": "Recharts",
+        "href": "https://recharts.org/",
+        "group": "chart",
+        "category": "Chart"
+      },
+      {
+        "id": "tanstack-chart",
+        "name": "TanStack Chart",
+        "href": "https://tanstack.com/charts",
+        "group": "chart",
+        "category": "Chart"
       }
     ]
   },
