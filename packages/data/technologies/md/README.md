@@ -1,51 +1,3 @@
-# DevStack
-
-- [DevStack](#devstack)
-  - [Languages](#languages)
-  - [Mobile OS](#mobile-os)
-  - [Desktop OS](#desktop-os)
-  - [Browsers](#browsers)
-  - [IDE](#ide)
-  - [Engines](#engines)
-  - [Runtimes](#runtimes)
-  - [Package Registries](#package-registries)
-  - [Package Managers](#package-managers)
-  - [Formatter](#formatter)
-  - [Linter](#linter)
-  - [Unit Test](#unit-test)
-  - [E2E Test](#e2e-test)
-  - [CLI Frameworks](#cli-frameworks)
-  - [Web Frameworks](#web-frameworks)
-  - [Meta Frameworks](#meta-frameworks)
-  - [Mobile Frameworks](#mobile-frameworks)
-  - [Desktop Frameworks](#desktop-frameworks)
-  - [HTTP Frameworks](#http-frameworks)
-  - [GraphQL Frameworks](#graphql-frameworks)
-  - [Message Broker](#message-broker)
-  - [Publish Subscribe](#publish-subscribe)
-  - [Machine Learning Frameworks](#machine-learning-frameworks)
-  - [ORM](#orm)
-  - [NoSQL Databases](#nosql-databases)
-  - [SQL Databases](#sql-databases)
-  - [Database Hosting](#database-hosting)
-  - [Version Control](#version-control)
-  - [Containerization](#containerization)
-  - [Container Management](#container-management)
-  - [CI / CD](#ci--cd)
-  - [Observability](#observability)
-  - [Secrets Management](#secrets-management)
-  - [Authentication](#authentication)
-  - [Email](#email)
-  - [Payment](#payment)
-  - [Static Pages](#static-pages)
-  - [Server](#server)
-  - [Serverless](#serverless)
-  - [PaaS](#paas)
-  - [BaaS](#baas)
-  - [IaaS](#iaas)
-  - [IaC](#iac)
-  - [Social](#social)
-
 ## Languages
 
 | Group     | Category  | Name       | URL                                                                   |
@@ -531,6 +483,7 @@
 | iac   | IaC      | Terraform          |     |
 | iac   | IaC      | AWS CloudFormation |     |
 
+
 ## Social
 
 | Group  | Category | Name        | URL |
@@ -544,3 +497,4 @@
 | social | Social   | Tiktok      |     |
 | social | Social   | X (Twitter) |     |
 | social | Social   | Shopify     |     |
+
