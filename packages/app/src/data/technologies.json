@@ -2469,6 +2469,39 @@
     ]
   },
   {
+    "id": "category-id",
+    "category": "category",
+    "technologies": [
+      {
+        "id": "name",
+        "name": "name",
+        "href": "href",
+        "group": "category_id",
+        "category": "category"
+      }
+    ]
+  },
+  {
+    "id": "ai-accelerators",
+    "category": "AI Accelerator Chips",
+    "technologies": [
+      {
+        "id": "nvidia-tensor-core-gpu",
+        "name": "NVIDIA Tensor Core GPU",
+        "href": "https://www.nvidia.com/en-us/data-center/tensor-core/",
+        "group": "ai-accelerators",
+        "category": "AI Accelerator Chips"
+      },
+      {
+        "id": "google-tpu",
+        "name": "Google TPU",
+        "href": "https://cloud.google.com/tpu",
+        "group": "ai-accelerators",
+        "category": "AI Accelerator Chips"
+      }
+    ]
+  },
+  {
     "id": "processors",
     "category": "Computer Processors",
     "technologies": [
@@ -2513,16 +2546,16 @@
     "category": "Graphics Cards",
     "technologies": [
       {
-        "id": "nvidia",
-        "name": "NVIDIA",
-        "href": "https://www.nvidia.com/",
+        "id": "amd-gpu",
+        "name": "AMD GPU",
+        "href": "https://www.amd.com/en/graphics",
         "group": "gpu",
         "category": "Graphics Cards"
       },
       {
-        "id": "amd-gpu",
-        "name": "AMD GPU",
-        "href": "https://www.amd.com/en/graphics",
+        "id": "nvidia",
+        "name": "NVIDIA",
+        "href": "https://www.nvidia.com/",
         "group": "gpu",
         "category": "Graphics Cards"
       }
@@ -2549,22 +2582,50 @@
     ]
   },
   {
-    "id": "ai-accelerators",
-    "category": "AI Accelerator Chips",
+    "id": "semiconductor",
+    "category": "Semiconductor Equipment",
     "technologies": [
       {
-        "id": "nvidia-tensor-core-gpu",
-        "name": "NVIDIA Tensor Core GPU",
-        "href": "https://www.nvidia.com/en-us/data-center/tensor-core/",
-        "group": "ai-accelerators",
-        "category": "AI Accelerator Chips"
+        "id": "applied-materials",
+        "name": "Applied Materials",
+        "href": "https://www.appliedmaterials.com/",
+        "group": "semiconductor",
+        "category": "Semiconductor Equipment"
       },
       {
-        "id": "google-tpu",
-        "name": "Google TPU",
-        "href": "https://cloud.google.com/tpu",
-        "group": "ai-accelerators",
-        "category": "AI Accelerator Chips"
+        "id": "broadcom",
+        "name": "Broadcom",
+        "href": "https://www.broadcom.com/",
+        "group": "semiconductor",
+        "category": "Networking & Connectivity"
+      },
+      {
+        "id": "asml",
+        "name": "ASML",
+        "href": "https://www.asml.com/",
+        "group": "semiconductor",
+        "category": "Lithography Machines"
+      },
+      {
+        "id": "sk-hynix",
+        "name": "SK Hynix",
+        "href": "https://www.skhynix.com/",
+        "group": "semiconductor",
+        "category": "Memory & Storage"
+      },
+      {
+        "id": "samsung",
+        "name": "Samsung",
+        "href": "https://www.samsung.com/semiconductor/",
+        "group": "semiconductor",
+        "category": "Memory & Storage"
+      },
+      {
+        "id": "tsmc",
+        "name": "TSMC",
+        "href": "https://www.tsmc.com/",
+        "group": "semiconductor",
+        "category": "Foundries"
       }
     ]
   },

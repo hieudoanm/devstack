@@ -649,6 +649,21 @@
 | social | Social | Shopify | [Shopify](https://www.shopify.com/) |
 
 
+## category
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| category_id | category | name | [name](href) |
+
+
+## AI Accelerator Chips
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| ai-accelerators | AI Accelerator Chips | NVIDIA Tensor Core GPU | [NVIDIA Tensor Core GPU](https://www.nvidia.com/en-us/data-center/tensor-core/) |
+| ai-accelerators | AI Accelerator Chips | Google TPU | [Google TPU](https://cloud.google.com/tpu) |
+
+
 ## Computer Processors
 
 | Group | Category | Name | URL |
@@ -669,8 +684,8 @@
 
 | Group | Category | Name | URL |
 | ----- | -------- | ---- | --- |
-| gpu | Graphics Cards | NVIDIA | [NVIDIA](https://www.nvidia.com/) |
 | gpu | Graphics Cards | AMD GPU | [AMD GPU](https://www.amd.com/en/graphics) |
+| gpu | Graphics Cards | NVIDIA | [NVIDIA](https://www.nvidia.com/) |
 
 
 ## Embedded Systems / Microcontrollers
@@ -681,12 +696,16 @@
 | microcontrollers | Embedded Systems / Microcontrollers | Raspberry Pi Pico | [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) |
 
 
-## AI Accelerator Chips
+## Semiconductor Equipment
 
 | Group | Category | Name | URL |
 | ----- | -------- | ---- | --- |
-| ai-accelerators | AI Accelerator Chips | NVIDIA Tensor Core GPU | [NVIDIA Tensor Core GPU](https://www.nvidia.com/en-us/data-center/tensor-core/) |
-| ai-accelerators | AI Accelerator Chips | Google TPU | [Google TPU](https://cloud.google.com/tpu) |
+| semiconductor | Semiconductor Equipment | Applied Materials | [Applied Materials](https://www.appliedmaterials.com/) |
+| semiconductor | Networking & Connectivity | Broadcom | [Broadcom](https://www.broadcom.com/) |
+| semiconductor | Lithography Machines | ASML | [ASML](https://www.asml.com/) |
+| semiconductor | Memory & Storage | SK Hynix | [SK Hynix](https://www.skhynix.com/) |
+| semiconductor | Memory & Storage | Samsung | [Samsung](https://www.samsung.com/semiconductor/) |
+| semiconductor | Foundries | TSMC | [TSMC](https://www.tsmc.com/) |
 
 
 ## AI
