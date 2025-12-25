@@ -97,6 +97,31 @@ const HomePage: NextPage = () => {
           </section>
         ))}
       </div>
+
+      <div className="absolute top-0 right-8 bottom-0 my-auto flex h-16 w-8 items-center justify-center rounded-full border border-gray-700">
+        <div className="relative h-12 w-4 overflow-hidden">
+          <div
+            className="absolute right-0 left-0"
+            style={{
+              // center the active dot in the container
+              top: 16 - sectionIndex * 16,
+            }}>
+            <div className="flex flex-col items-center justify-start gap-y-2">
+              {sections.map(({ id, category }, sIndex) => (
+                <div
+                  key={id}
+                  title={`${sIndex}. ${category}`}
+                  className={`rounded-full transition-all duration-300 ${
+                    sectionIndex === sIndex
+                      ? 'h-4 w-4 bg-white'
+                      : 'h-2 w-2 bg-gray-700'
+                  }`}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

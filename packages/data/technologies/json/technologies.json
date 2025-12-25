@@ -4,23 +4,16 @@
     "category": "Languages",
     "technologies": [
       {
-        "id": "java",
-        "name": "Java",
-        "href": "https://www.java.com/",
+        "id": "c",
+        "name": "C",
+        "href": "https://en.cppreference.com/w/c",
         "group": "languages",
         "category": "Languages"
       },
       {
-        "id": "typescript",
-        "name": "TypeScript",
-        "href": "https://www.typescriptlang.org/",
-        "group": "languages",
-        "category": "Languages"
-      },
-      {
-        "id": "javascript",
-        "name": "JavaScript",
-        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "id": "c",
+        "name": "C++",
+        "href": "https://isocpp.org/",
         "group": "languages",
         "category": "Languages"
       },
@@ -28,27 +21,6 @@
         "id": "c",
         "name": "C#",
         "href": "https://learn.microsoft.com/dotnet/csharp/",
-        "group": "languages",
-        "category": "Languages"
-      },
-      {
-        "id": "python",
-        "name": "Python",
-        "href": "https://www.python.org/",
-        "group": "languages",
-        "category": "Languages"
-      },
-      {
-        "id": "swift",
-        "name": "Swift",
-        "href": "https://www.swift.org/",
-        "group": "languages",
-        "category": "Languages"
-      },
-      {
-        "id": "kotlin",
-        "name": "Kotlin",
-        "href": "https://kotlinlang.org/",
         "group": "languages",
         "category": "Languages"
       },
@@ -67,30 +39,23 @@
         "category": "Languages"
       },
       {
-        "id": "rust",
-        "name": "Rust",
-        "href": "https://www.rust-lang.org/",
+        "id": "java",
+        "name": "Java",
+        "href": "https://www.java.com/",
         "group": "languages",
         "category": "Languages"
       },
       {
-        "id": "c",
-        "name": "C",
-        "href": "https://en.cppreference.com/w/c",
+        "id": "javascript",
+        "name": "JavaScript",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         "group": "languages",
         "category": "Languages"
       },
       {
-        "id": "c",
-        "name": "C++",
-        "href": "https://isocpp.org/",
-        "group": "languages",
-        "category": "Languages"
-      },
-      {
-        "id": "scala",
-        "name": "Scala",
-        "href": "https://www.scala-lang.org/",
+        "id": "kotlin",
+        "name": "Kotlin",
+        "href": "https://kotlinlang.org/",
         "group": "languages",
         "category": "Languages"
       },
@@ -102,13 +67,6 @@
         "category": "Languages"
       },
       {
-        "id": "r",
-        "name": "R",
-        "href": "https://www.r-project.org/",
-        "group": "languages",
-        "category": "Languages"
-      },
-      {
         "id": "php",
         "name": "PHP",
         "href": "https://www.php.net/",
@@ -116,9 +74,51 @@
         "category": "Languages"
       },
       {
+        "id": "python",
+        "name": "Python",
+        "href": "https://www.python.org/",
+        "group": "languages",
+        "category": "Languages"
+      },
+      {
+        "id": "r",
+        "name": "R",
+        "href": "https://www.r-project.org/",
+        "group": "languages",
+        "category": "Languages"
+      },
+      {
         "id": "ruby",
         "name": "Ruby",
         "href": "https://www.ruby-lang.org/",
+        "group": "languages",
+        "category": "Languages"
+      },
+      {
+        "id": "rust",
+        "name": "Rust",
+        "href": "https://www.rust-lang.org/",
+        "group": "languages",
+        "category": "Languages"
+      },
+      {
+        "id": "scala",
+        "name": "Scala",
+        "href": "https://www.scala-lang.org/",
+        "group": "languages",
+        "category": "Languages"
+      },
+      {
+        "id": "swift",
+        "name": "Swift",
+        "href": "https://www.swift.org/",
+        "group": "languages",
+        "category": "Languages"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "href": "https://www.typescriptlang.org/",
         "group": "languages",
         "category": "Languages"
       }
@@ -502,6 +502,54 @@
     ]
   },
   {
+    "id": "monorepo",
+    "category": "Monorepo",
+    "technologies": [
+      {
+        "id": "bit",
+        "name": "Bit",
+        "href": "https://bit.dev/",
+        "group": "monorepo",
+        "category": "Monorepo"
+      },
+      {
+        "id": "nx",
+        "name": "NX",
+        "href": "https://nx.dev/",
+        "group": "monorepo",
+        "category": "Monorepo"
+      },
+      {
+        "id": "lerna",
+        "name": "Lerna",
+        "href": "https://lerna.js.org/",
+        "group": "monorepo",
+        "category": "Monorepo"
+      },
+      {
+        "id": "pnpm-workspaces",
+        "name": "pnpm Workspaces",
+        "href": "https://pnpm.io/workspaces",
+        "group": "monorepo",
+        "category": "Monorepo"
+      },
+      {
+        "id": "turbo",
+        "name": "Turbo",
+        "href": "https://turbo.build/",
+        "group": "monorepo",
+        "category": "Monorepo"
+      },
+      {
+        "id": "yarn-workspaces",
+        "name": "Yarn Workspaces",
+        "href": "https://yarnpkg.com/features/workspaces",
+        "group": "monorepo",
+        "category": "Monorepo"
+      }
+    ]
+  },
+  {
     "id": "formatter",
     "category": "Formatter",
     "technologies": [
@@ -694,6 +742,47 @@
     ]
   },
   {
+    "id": "bundler",
+    "category": "Bundler",
+    "technologies": [
+      {
+        "id": "esbuild",
+        "name": "ESBuild",
+        "href": "https://esbuild.github.io/",
+        "group": "bundler",
+        "category": "Bundler"
+      },
+      {
+        "id": "parcel",
+        "name": "Parcel",
+        "href": "https://parceljs.org/",
+        "group": "bundler",
+        "category": "Bundler"
+      },
+      {
+        "id": "rollup",
+        "name": "Rollup",
+        "href": "https://rollupjs.org/",
+        "group": "bundler",
+        "category": "Bundler"
+      },
+      {
+        "id": "rspack",
+        "name": "Rspack",
+        "href": "https://rspack.dev/",
+        "group": "bundler",
+        "category": "Bundler"
+      },
+      {
+        "id": "webpack",
+        "name": "Webpack",
+        "href": "https://webpack.js.org/",
+        "group": "bundler",
+        "category": "Bundler"
+      }
+    ]
+  },
+  {
     "id": "cli-frameworks",
     "category": "CLI Frameworks",
     "technologies": [
@@ -710,6 +799,123 @@
         "href": "https://cobra.dev/",
         "group": "cli-frameworks",
         "category": "CLI Frameworks"
+      },
+      {
+        "id": "commander",
+        "name": "Commander",
+        "href": "https://github.com/tj/commander.js/",
+        "group": "cli-frameworks",
+        "category": "CLI Frameworks"
+      },
+      {
+        "id": "oclif",
+        "name": "OCLIF",
+        "href": "https://oclif.io/",
+        "group": "cli-frameworks",
+        "category": "CLI Frameworks"
+      },
+      {
+        "id": "yargs",
+        "name": "Yargs",
+        "href": "https://yargs.js.org/",
+        "group": "cli-frameworks",
+        "category": "CLI Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "css-components",
+    "category": "CSS Components",
+    "technologies": [
+      {
+        "id": "daisyui",
+        "name": "DaisyUI",
+        "href": "https://daisyui.com/",
+        "group": "css-components",
+        "category": "CSS Components"
+      },
+      {
+        "id": "tailwindui",
+        "name": "TailwindUI",
+        "href": "https://tailwindui.com/",
+        "group": "css-components",
+        "category": "CSS Components"
+      },
+      {
+        "id": "bootstrap",
+        "name": "Bootstrap",
+        "href": "https://getbootstrap.com/",
+        "group": "css-components",
+        "category": "CSS Components"
+      },
+      {
+        "id": "bulma",
+        "name": "Bulma",
+        "href": "https://bulma.io/",
+        "group": "css-components",
+        "category": "CSS Components"
+      },
+      {
+        "id": "materialize-css",
+        "name": "Materialize CSS",
+        "href": "https://materializecss.com/",
+        "group": "css-components",
+        "category": "CSS Components"
+      },
+      {
+        "id": "shadcn-ui",
+        "name": "shadcn/ui",
+        "href": "https://ui.shadcn.com/",
+        "group": "css-components",
+        "category": "CSS Components"
+      },
+      {
+        "id": "uikit",
+        "name": "UIKit",
+        "href": "https://getuikit.com/",
+        "group": "css-components",
+        "category": "CSS Components"
+      }
+    ]
+  },
+  {
+    "id": "react-components",
+    "category": "React Components",
+    "technologies": [
+      {
+        "id": "ant-design",
+        "name": "Ant Design",
+        "href": "https://ant.design/",
+        "group": "react-components",
+        "category": "React Components"
+      },
+      {
+        "id": "chakra-ui",
+        "name": "Chakra UI",
+        "href": "https://chakra-ui.com/",
+        "group": "react-components",
+        "category": "React Components"
+      },
+      {
+        "id": "mui",
+        "name": "MUI",
+        "href": "https://mui.com/",
+        "group": "react-components",
+        "category": "React Components"
+      },
+      {
+        "id": "nextui",
+        "name": "NextUI",
+        "href": "https://nextui.org/",
+        "group": "react-components",
+        "category": "React Components"
+      },
+      {
+        "id": "theme-ui",
+        "name": "Theme UI",
+        "href": "https://theme-ui.com/",
+        "group": "react-components",
+        "category": "React Components"
       }
     ]
   },
@@ -786,6 +992,40 @@
         "href": "https://qwik.builder.io/",
         "group": "web-frameworks",
         "category": "Web Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "state-management",
+    "category": "State Management",
+    "technologies": [
+      {
+        "id": "redux",
+        "name": "Redux",
+        "href": "https://redux.js.org/",
+        "group": "state-management",
+        "category": "State Management"
+      },
+      {
+        "id": "xstate",
+        "name": "XState",
+        "href": "https://xstate.js.org/",
+        "group": "state-management",
+        "category": "State Management"
+      },
+      {
+        "id": "jotai",
+        "name": "Jotai",
+        "href": "https://jotai.org/",
+        "group": "state-management",
+        "category": "State Management"
+      },
+      {
+        "id": "zustand",
+        "name": "Zustand",
+        "href": "https://zustand-demo.pmnd.rs/",
+        "group": "state-management",
+        "category": "State Management"
       }
     ]
   },
@@ -1058,6 +1298,46 @@
     ]
   },
   {
+    "id": "grpc-frameworks",
+    "category": "gRPC Frameworks",
+    "technologies": [
+      {
+        "id": "grpc",
+        "name": "gRPC",
+        "href": "https://grpc.io/",
+        "group": "grpc-frameworks",
+        "category": "gRPC Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "websocket-frameworks",
+    "category": "WebSocket Frameworks",
+    "technologies": [
+      {
+        "id": "socket-io",
+        "name": "Socket.io",
+        "href": "https://socket.io/",
+        "group": "websocket-frameworks",
+        "category": "WebSocket Frameworks"
+      },
+      {
+        "id": "sockjs",
+        "name": "SockJS",
+        "href": "https://github.com/sockjs/sockjs-client",
+        "group": "websocket-frameworks",
+        "category": "WebSocket Frameworks"
+      },
+      {
+        "id": "ws",
+        "name": "WS",
+        "href": "https://github.com/websockets/ws",
+        "group": "websocket-frameworks",
+        "category": "WebSocket Frameworks"
+      }
+    ]
+  },
+  {
     "id": "broker",
     "category": "Message Broker",
     "technologies": [
@@ -1286,30 +1566,37 @@
     "category": "Version Control",
     "technologies": [
       {
-        "id": "bitbucket",
-        "name": "Bitbucket",
-        "href": "https://bitbucket.org/",
+        "id": "bitkeeper",
+        "name": "BitKeeper",
+        "href": "https://www.bitkeeper.com/",
         "group": "version-control",
         "category": "Version Control"
       },
       {
-        "id": "github",
-        "name": "GitHub",
-        "href": "https://github.com/",
+        "id": "git",
+        "name": "Git",
+        "href": "https://git-scm.com/",
         "group": "version-control",
         "category": "Version Control"
       },
       {
-        "id": "gitlab",
-        "name": "GitLab",
-        "href": "https://gitlab.com/",
+        "id": "mercurial",
+        "name": "Mercurial",
+        "href": "https://www.mercurial-scm.org/",
         "group": "version-control",
         "category": "Version Control"
       },
       {
-        "id": "launchpad",
-        "name": "Launchpad",
-        "href": "https://launchpad.net/",
+        "id": "helix-core",
+        "name": "Helix Core",
+        "href": "https://www.perforce.com/products/helix-core",
+        "group": "version-control",
+        "category": "Version Control"
+      },
+      {
+        "id": "svn",
+        "name": "SVN",
+        "href": "https://subversion.apache.org/",
         "group": "version-control",
         "category": "Version Control"
       }
@@ -1486,6 +1773,40 @@
     ]
   },
   {
+    "id": "saas-version-control",
+    "category": "Version Control",
+    "technologies": [
+      {
+        "id": "bitbucket",
+        "name": "Bitbucket",
+        "href": "https://bitbucket.org/",
+        "group": "saas-version-control",
+        "category": "Version Control"
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "href": "https://github.com/",
+        "group": "saas-version-control",
+        "category": "Version Control"
+      },
+      {
+        "id": "gitlab",
+        "name": "GitLab",
+        "href": "https://gitlab.com/",
+        "group": "saas-version-control",
+        "category": "Version Control"
+      },
+      {
+        "id": "launchpad",
+        "name": "Launchpad",
+        "href": "https://launchpad.net/",
+        "group": "saas-version-control",
+        "category": "Version Control"
+      }
+    ]
+  },
+  {
     "id": "saas-authentication",
     "category": "Authentication",
     "technologies": [
@@ -1547,35 +1868,35 @@
       {
         "id": "sendgrid",
         "name": "SendGrid",
-        "href": "",
+        "href": "https://sendgrid.com/",
         "group": "saas-email",
         "category": "Email"
       },
       {
         "id": "mailgun",
         "name": "Mailgun",
-        "href": "",
+        "href": "https://www.mailgun.com/",
         "group": "saas-email",
         "category": "Email"
       },
       {
         "id": "postmark",
         "name": "Postmark",
-        "href": "",
+        "href": "https://postmarkapp.com/",
         "group": "saas-email",
         "category": "Email"
       },
       {
         "id": "mailchimp",
         "name": "MailChimp",
-        "href": "",
+        "href": "https://mailchimp.com/",
         "group": "saas-email",
         "category": "Email"
       },
       {
         "id": "resend",
         "name": "Resend",
-        "href": "",
+        "href": "https://resend.com/",
         "group": "saas-email",
         "category": "Email"
       }
@@ -1588,35 +1909,35 @@
       {
         "id": "braintree",
         "name": "Braintree",
-        "href": "",
+        "href": "https://www.braintreepayments.com/",
         "group": "saas-payment",
         "category": "Payment"
       },
       {
         "id": "paddle",
         "name": "Paddle",
-        "href": "",
+        "href": "https://paddle.com/",
         "group": "saas-payment",
         "category": "Payment"
       },
       {
         "id": "paypal",
         "name": "Paypal",
-        "href": "",
+        "href": "https://www.paypal.com/",
         "group": "saas-payment",
         "category": "Payment"
       },
       {
         "id": "square",
         "name": "Square",
-        "href": "",
+        "href": "https://squareup.com/",
         "group": "saas-payment",
         "category": "Payment"
       },
       {
         "id": "stripe",
         "name": "Stripe",
-        "href": "",
+        "href": "https://stripe.com/",
         "group": "saas-payment",
         "category": "Payment"
       }
@@ -1649,14 +1970,14 @@
       {
         "id": "nginx",
         "name": "nginx",
-        "href": "",
+        "href": "https://nginx.org/",
         "group": "server",
         "category": "Server"
       },
       {
         "id": "httpd",
         "name": "httpd",
-        "href": "",
+        "href": "https://httpd.apache.org/",
         "group": "server",
         "category": "Server"
       }
@@ -1669,35 +1990,35 @@
       {
         "id": "cloudflare-workers",
         "name": "Cloudflare Workers",
-        "href": "",
+        "href": "https://developers.cloudflare.com/workers/",
         "group": "serverless",
         "category": "Serverless"
       },
       {
         "id": "deno-deploy",
         "name": "Deno Deploy",
-        "href": "",
+        "href": "https://deno.com/deploy",
         "group": "serverless",
         "category": "Serverless"
       },
       {
         "id": "fly",
         "name": "Fly",
-        "href": "",
+        "href": "https://fly.io/",
         "group": "serverless",
         "category": "Serverless"
       },
       {
         "id": "netlify",
         "name": "Netlify",
-        "href": "",
+        "href": "https://www.netlify.com/",
         "group": "serverless",
         "category": "Serverless"
       },
       {
         "id": "vercel",
         "name": "Vercel",
-        "href": "",
+        "href": "https://vercel.com/",
         "group": "serverless",
         "category": "Serverless"
       }
@@ -1710,35 +2031,35 @@
       {
         "id": "app-engine",
         "name": "App Engine",
-        "href": "",
+        "href": "https://cloud.google.com/appengine/",
         "group": "paas",
         "category": "PaaS"
       },
       {
         "id": "heroku",
         "name": "Heroku",
-        "href": "",
+        "href": "https://www.heroku.com/",
         "group": "paas",
         "category": "PaaS"
       },
       {
         "id": "openshift",
         "name": "OpenShift",
-        "href": "",
+        "href": "https://www.openshift.com/",
         "group": "paas",
         "category": "PaaS"
       },
       {
         "id": "railway",
         "name": "Railway",
-        "href": "",
+        "href": "https://railway.app/",
         "group": "paas",
         "category": "PaaS"
       },
       {
         "id": "render",
         "name": "Render",
-        "href": "",
+        "href": "https://render.com/",
         "group": "paas",
         "category": "PaaS"
       }
@@ -1751,35 +2072,35 @@
       {
         "id": "appwrite",
         "name": "AppWrite",
-        "href": "",
+        "href": "https://appwrite.io/",
         "group": "baas",
         "category": "BaaS"
       },
       {
         "id": "firebase",
         "name": "Firebase",
-        "href": "",
+        "href": "https://firebase.google.com/",
         "group": "baas",
         "category": "BaaS"
       },
       {
         "id": "nhost",
         "name": "NHost",
-        "href": "",
+        "href": "https://nhost.io/",
         "group": "baas",
         "category": "BaaS"
       },
       {
         "id": "pocketbase",
         "name": "PocketBase",
-        "href": "",
+        "href": "https://pocketbase.io/",
         "group": "baas",
         "category": "BaaS"
       },
       {
         "id": "supabase",
         "name": "SupaBase",
-        "href": "",
+        "href": "https://supabase.com/",
         "group": "baas",
         "category": "BaaS"
       }
@@ -1833,21 +2154,21 @@
       {
         "id": "opentofu",
         "name": "OpenTofu",
-        "href": "",
+        "href": "https://opentofu.org/",
         "group": "iac",
         "category": "IaC"
       },
       {
         "id": "terraform",
         "name": "Terraform",
-        "href": "",
+        "href": "https://www.terraform.io/",
         "group": "iac",
         "category": "IaC"
       },
       {
         "id": "aws-cloudformation",
         "name": "AWS CloudFormation",
-        "href": "",
+        "href": "https://aws.amazon.com/cloudformation/",
         "group": "iac",
         "category": "IaC"
       }
@@ -1860,63 +2181,63 @@
       {
         "id": "youtube",
         "name": "YouTube",
-        "href": "",
+        "href": "https://www.youtube.com/",
         "group": "social",
         "category": "Social"
       },
       {
         "id": "facebook",
         "name": "Facebook",
-        "href": "",
+        "href": "https://www.facebook.com/",
         "group": "social",
         "category": "Social"
       },
       {
         "id": "instagram",
         "name": "Instagram",
-        "href": "",
+        "href": "https://www.instagram.com/",
         "group": "social",
         "category": "Social"
       },
       {
         "id": "messenger",
         "name": "Messenger",
-        "href": "",
+        "href": "https://www.messenger.com/",
         "group": "social",
         "category": "Social"
       },
       {
         "id": "threads",
         "name": "Threads",
-        "href": "",
+        "href": "https://threads.net/",
         "group": "social",
         "category": "Social"
       },
       {
         "id": "reddit",
         "name": "Reddit",
-        "href": "",
+        "href": "https://www.reddit.com/",
         "group": "social",
         "category": "Social"
       },
       {
         "id": "tiktok",
         "name": "Tiktok",
-        "href": "",
+        "href": "https://www.tiktok.com/",
         "group": "social",
         "category": "Social"
       },
       {
         "id": "x-twitter",
         "name": "X (Twitter)",
-        "href": "",
+        "href": "https://twitter.com/",
         "group": "social",
         "category": "Social"
       },
       {
         "id": "shopify",
         "name": "Shopify",
-        "href": "",
+        "href": "https://www.shopify.com/",
         "group": "social",
         "category": "Social"
       }

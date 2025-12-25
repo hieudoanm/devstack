@@ -10,17 +10,24 @@
   - [Runtimes](#runtimes)
   - [Package Registries](#package-registries)
   - [Package Managers](#package-managers)
+  - [Monorepo](#monorepo)
   - [Formatter](#formatter)
   - [Linter](#linter)
   - [Unit Test](#unit-test)
   - [E2E Test](#e2e-test)
+  - [Bundler](#bundler)
   - [CLI Frameworks](#cli-frameworks)
+  - [CSS Components](#css-components)
+  - [React Components](#react-components)
   - [Web Frameworks](#web-frameworks)
+  - [State Management](#state-management)
   - [Meta Frameworks](#meta-frameworks)
   - [Mobile Frameworks](#mobile-frameworks)
   - [Desktop Frameworks](#desktop-frameworks)
   - [HTTP Frameworks](#http-frameworks)
   - [GraphQL Frameworks](#graphql-frameworks)
+  - [gRPC Frameworks](#grpc-frameworks)
+  - [WebSocket Frameworks](#websocket-frameworks)
   - [Message Broker](#message-broker)
   - [Publish Subscribe](#publish-subscribe)
   - [Machine Learning Frameworks](#machine-learning-frameworks)
@@ -34,6 +41,7 @@
   - [CI / CD](#ci--cd)
   - [Observability](#observability)
   - [Secrets Management](#secrets-management)
+  - [Version Control](#version-control-1)
   - [Authentication](#authentication)
   - [Email](#email)
   - [Payment](#payment)
@@ -50,23 +58,23 @@
 
 | Group     | Category  | Name       | URL                                                                   |
 | --------- | --------- | ---------- | --------------------------------------------------------------------- |
-| languages | Languages | Java       | [Java](https://www.java.com/)                                         |
-| languages | Languages | TypeScript | [TypeScript](https://www.typescriptlang.org/)                         |
-| languages | Languages | JavaScript | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
-| languages | Languages | C#         | [C#](https://learn.microsoft.com/dotnet/csharp/)                      |
-| languages | Languages | Python     | [Python](https://www.python.org/)                                     |
-| languages | Languages | Swift      | [Swift](https://www.swift.org/)                                       |
-| languages | Languages | Kotlin     | [Kotlin](https://kotlinlang.org/)                                     |
-| languages | Languages | Dart       | [Dart](https://dart.dev/)                                             |
-| languages | Languages | Go         | [Go](https://go.dev/)                                                 |
-| languages | Languages | Rust       | [Rust](https://www.rust-lang.org/)                                    |
 | languages | Languages | C          | [C](https://en.cppreference.com/w/c)                                  |
 | languages | Languages | C++        | [C++](https://isocpp.org/)                                            |
-| languages | Languages | Scala      | [Scala](https://www.scala-lang.org/)                                  |
+| languages | Languages | C#         | [C#](https://learn.microsoft.com/dotnet/csharp/)                      |
+| languages | Languages | Dart       | [Dart](https://dart.dev/)                                             |
+| languages | Languages | Go         | [Go](https://go.dev/)                                                 |
+| languages | Languages | Java       | [Java](https://www.java.com/)                                         |
+| languages | Languages | JavaScript | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+| languages | Languages | Kotlin     | [Kotlin](https://kotlinlang.org/)                                     |
 | languages | Languages | MATLAB     | [MATLAB](https://www.mathworks.com/products/matlab.html)              |
-| languages | Languages | R          | [R](https://www.r-project.org/)                                       |
 | languages | Languages | PHP        | [PHP](https://www.php.net/)                                           |
+| languages | Languages | Python     | [Python](https://www.python.org/)                                     |
+| languages | Languages | R          | [R](https://www.r-project.org/)                                       |
 | languages | Languages | Ruby       | [Ruby](https://www.ruby-lang.org/)                                    |
+| languages | Languages | Rust       | [Rust](https://www.rust-lang.org/)                                    |
+| languages | Languages | Scala      | [Scala](https://www.scala-lang.org/)                                  |
+| languages | Languages | Swift      | [Swift](https://www.swift.org/)                                       |
+| languages | Languages | TypeScript | [TypeScript](https://www.typescriptlang.org/)                         |
 
 
 ## Mobile OS
@@ -164,6 +172,18 @@
 | package-managers | Package Managers | Volt | [Volt](https://volta.sh/)     |
 
 
+## Monorepo
+
+| Group    | Category | Name            | URL                                                        |
+| -------- | -------- | --------------- | ---------------------------------------------------------- |
+| monorepo | Monorepo | Bit             | [Bit](https://bit.dev/)                                    |
+| monorepo | Monorepo | NX              | [NX](https://nx.dev/)                                      |
+| monorepo | Monorepo | Lerna           | [Lerna](https://lerna.js.org/)                             |
+| monorepo | Monorepo | pnpm Workspaces | [pnpm Workspaces](https://pnpm.io/workspaces)              |
+| monorepo | Monorepo | Turbo           | [Turbo](https://turbo.build/)                              |
+| monorepo | Monorepo | Yarn Workspaces | [Yarn Workspaces](https://yarnpkg.com/features/workspaces) |
+
+
 ## Formatter
 
 | Group     | Category  | Name         | URL                                                          |
@@ -212,12 +232,50 @@
 | e2e-test | E2E Test | Storybook  | [Storybook](https://storybook.js.org/)   |
 
 
+## Bundler
+
+| Group   | Category | Name    | URL                                   |
+| ------- | -------- | ------- | ------------------------------------- |
+| bundler | Bundler  | ESBuild | [ESBuild](https://esbuild.github.io/) |
+| bundler | Bundler  | Parcel  | [Parcel](https://parceljs.org/)       |
+| bundler | Bundler  | Rollup  | [Rollup](https://rollupjs.org/)       |
+| bundler | Bundler  | Rspack  | [Rspack](https://rspack.dev/)         |
+| bundler | Bundler  | Webpack | [Webpack](https://webpack.js.org/)    |
+
+
 ## CLI Frameworks
 
-| Group          | Category       | Name  | URL                         |
-| -------------- | -------------- | ----- | --------------------------- |
-| cli-frameworks | CLI Frameworks | oclif | [oclif](https://oclif.io/)  |
-| cli-frameworks | CLI Frameworks | cobra | [cobra](https://cobra.dev/) |
+| Group          | Category       | Name      | URL                                              |
+| -------------- | -------------- | --------- | ------------------------------------------------ |
+| cli-frameworks | CLI Frameworks | oclif     | [oclif](https://oclif.io/)                       |
+| cli-frameworks | CLI Frameworks | cobra     | [cobra](https://cobra.dev/)                      |
+| cli-frameworks | CLI Frameworks | Commander | [Commander](https://github.com/tj/commander.js/) |
+| cli-frameworks | CLI Frameworks | OCLIF     | [OCLIF](https://oclif.io/)                       |
+| cli-frameworks | CLI Frameworks | Yargs     | [Yargs](https://yargs.js.org/)                   |
+
+
+## CSS Components
+
+| Group          | Category       | Name            | URL                                            |
+| -------------- | -------------- | --------------- | ---------------------------------------------- |
+| css-components | CSS Components | DaisyUI         | [DaisyUI](https://daisyui.com/)                |
+| css-components | CSS Components | TailwindUI      | [TailwindUI](https://tailwindui.com/)          |
+| css-components | CSS Components | Bootstrap       | [Bootstrap](https://getbootstrap.com/)         |
+| css-components | CSS Components | Bulma           | [Bulma](https://bulma.io/)                     |
+| css-components | CSS Components | Materialize CSS | [Materialize CSS](https://materializecss.com/) |
+| css-components | CSS Components | shadcn/ui       | [shadcn/ui](https://ui.shadcn.com/)            |
+| css-components | CSS Components | UIKit           | [UIKit](https://getuikit.com/)                 |
+
+
+## React Components
+
+| Group            | Category         | Name       | URL                                 |
+| ---------------- | ---------------- | ---------- | ----------------------------------- |
+| react-components | React Components | Ant Design | [Ant Design](https://ant.design/)   |
+| react-components | React Components | Chakra UI  | [Chakra UI](https://chakra-ui.com/) |
+| react-components | React Components | MUI        | [MUI](https://mui.com/)             |
+| react-components | React Components | NextUI     | [NextUI](https://nextui.org/)       |
+| react-components | React Components | Theme UI   | [Theme UI](https://theme-ui.com/)   |
 
 
 ## Web Frameworks
@@ -234,6 +292,16 @@
 | web-frameworks | Web Frameworks | Solid.js    | [Solid.js](https://www.solidjs.com/)   |
 | web-frameworks | Web Frameworks | Preact      | [Preact](https://preactjs.com/)        |
 | web-frameworks | Web Frameworks | Qwik        | [Qwik](https://qwik.builder.io/)       |
+
+
+## State Management
+
+| Group            | Category         | Name    | URL                                      |
+| ---------------- | ---------------- | ------- | ---------------------------------------- |
+| state-management | State Management | Redux   | [Redux](https://redux.js.org/)           |
+| state-management | State Management | XState  | [XState](https://xstate.js.org/)         |
+| state-management | State Management | Jotai   | [Jotai](https://jotai.org/)              |
+| state-management | State Management | Zustand | [Zustand](https://zustand-demo.pmnd.rs/) |
 
 
 ## Meta Frameworks
@@ -298,6 +366,22 @@
 | graphql-frameworks | GraphQL Frameworks | Garph         | [Garph](https://garph.dev/)                                        |
 | graphql-frameworks | GraphQL Frameworks | Mercurius     | [Mercurius](https://mercurius.dev/)                                |
 | graphql-frameworks | GraphQL Frameworks | GraphQL Yoga  | [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server)          |
+
+
+## gRPC Frameworks
+
+| Group           | Category        | Name | URL                      |
+| --------------- | --------------- | ---- | ------------------------ |
+| grpc-frameworks | gRPC Frameworks | gRPC | [gRPC](https://grpc.io/) |
+
+
+## WebSocket Frameworks
+
+| Group                | Category             | Name      | URL                                               |
+| -------------------- | -------------------- | --------- | ------------------------------------------------- |
+| websocket-frameworks | WebSocket Frameworks | Socket.io | [Socket.io](https://socket.io/)                   |
+| websocket-frameworks | WebSocket Frameworks | SockJS    | [SockJS](https://github.com/sockjs/sockjs-client) |
+| websocket-frameworks | WebSocket Frameworks | WS        | [WS](https://github.com/websockets/ws)            |
 
 
 ## Message Broker
@@ -370,12 +454,13 @@
 
 ## Version Control
 
-| Group           | Category        | Name      | URL                                 |
-| --------------- | --------------- | --------- | ----------------------------------- |
-| version-control | Version Control | Bitbucket | [Bitbucket](https://bitbucket.org/) |
-| version-control | Version Control | GitHub    | [GitHub](https://github.com/)       |
-| version-control | Version Control | GitLab    | [GitLab](https://gitlab.com/)       |
-| version-control | Version Control | Launchpad | [Launchpad](https://launchpad.net/) |
+| Group           | Category        | Name       | URL                                                        |
+| --------------- | --------------- | ---------- | ---------------------------------------------------------- |
+| version-control | Version Control | BitKeeper  | [BitKeeper](https://www.bitkeeper.com/)                    |
+| version-control | Version Control | Git        | [Git](https://git-scm.com/)                                |
+| version-control | Version Control | Mercurial  | [Mercurial](https://www.mercurial-scm.org/)                |
+| version-control | Version Control | Helix Core | [Helix Core](https://www.perforce.com/products/helix-core) |
+| version-control | Version Control | SVN        | [SVN](https://subversion.apache.org/)                      |
 
 
 ## Containerization
@@ -428,6 +513,16 @@
 | secrets-management | Secrets Management | Infisical | [Infisical](https://infisical.com/)   |
 
 
+## Version Control
+
+| Group                | Category        | Name      | URL                                 |
+| -------------------- | --------------- | --------- | ----------------------------------- |
+| saas-version-control | Version Control | Bitbucket | [Bitbucket](https://bitbucket.org/) |
+| saas-version-control | Version Control | GitHub    | [GitHub](https://github.com/)       |
+| saas-version-control | Version Control | GitLab    | [GitLab](https://gitlab.com/)       |
+| saas-version-control | Version Control | Launchpad | [Launchpad](https://launchpad.net/) |
+
+
 ## Authentication
 
 | Group               | Category       | Name     | URL                                         |
@@ -443,24 +538,24 @@
 
 ## Email
 
-| Group      | Category | Name      | URL |
-| ---------- | -------- | --------- | --- |
-| saas-email | Email    | SendGrid  |     |
-| saas-email | Email    | Mailgun   |     |
-| saas-email | Email    | Postmark  |     |
-| saas-email | Email    | MailChimp |     |
-| saas-email | Email    | Resend    |     |
+| Group      | Category | Name      | URL                                  |
+| ---------- | -------- | --------- | ------------------------------------ |
+| saas-email | Email    | SendGrid  | [SendGrid](https://sendgrid.com/)    |
+| saas-email | Email    | Mailgun   | [Mailgun](https://www.mailgun.com/)  |
+| saas-email | Email    | Postmark  | [Postmark](https://postmarkapp.com/) |
+| saas-email | Email    | MailChimp | [MailChimp](https://mailchimp.com/)  |
+| saas-email | Email    | Resend    | [Resend](https://resend.com/)        |
 
 
 ## Payment
 
-| Group        | Category | Name      | URL |
-| ------------ | -------- | --------- | --- |
-| saas-payment | Payment  | Braintree |     |
-| saas-payment | Payment  | Paddle    |     |
-| saas-payment | Payment  | Paypal    |     |
-| saas-payment | Payment  | Square    |     |
-| saas-payment | Payment  | Stripe    |     |
+| Group        | Category | Name      | URL                                             |
+| ------------ | -------- | --------- | ----------------------------------------------- |
+| saas-payment | Payment  | Braintree | [Braintree](https://www.braintreepayments.com/) |
+| saas-payment | Payment  | Paddle    | [Paddle](https://paddle.com/)                   |
+| saas-payment | Payment  | Paypal    | [Paypal](https://www.paypal.com/)               |
+| saas-payment | Payment  | Square    | [Square](https://squareup.com/)                 |
+| saas-payment | Payment  | Stripe    | [Stripe](https://stripe.com/)                   |
 
 
 ## Static Pages
@@ -473,43 +568,43 @@
 
 ## Server
 
-| Group  | Category | Name  | URL |
-| ------ | -------- | ----- | --- |
-| server | Server   | nginx |     |
-| server | Server   | httpd |     |
+| Group  | Category | Name  | URL                                |
+| ------ | -------- | ----- | ---------------------------------- |
+| server | Server   | nginx | [nginx](https://nginx.org/)        |
+| server | Server   | httpd | [httpd](https://httpd.apache.org/) |
 
 
 ## Serverless
 
-| Group      | Category   | Name               | URL |
-| ---------- | ---------- | ------------------ | --- |
-| serverless | Serverless | Cloudflare Workers |     |
-| serverless | Serverless | Deno Deploy        |     |
-| serverless | Serverless | Fly                |     |
-| serverless | Serverless | Netlify            |     |
-| serverless | Serverless | Vercel             |     |
+| Group      | Category   | Name               | URL                                                              |
+| ---------- | ---------- | ------------------ | ---------------------------------------------------------------- |
+| serverless | Serverless | Cloudflare Workers | [Cloudflare Workers](https://developers.cloudflare.com/workers/) |
+| serverless | Serverless | Deno Deploy        | [Deno Deploy](https://deno.com/deploy)                           |
+| serverless | Serverless | Fly                | [Fly](https://fly.io/)                                           |
+| serverless | Serverless | Netlify            | [Netlify](https://www.netlify.com/)                              |
+| serverless | Serverless | Vercel             | [Vercel](https://vercel.com/)                                    |
 
 
 ## PaaS
 
-| Group | Category | Name       | URL |
-| ----- | -------- | ---------- | --- |
-| paas  | PaaS     | App Engine |     |
-| paas  | PaaS     | Heroku     |     |
-| paas  | PaaS     | OpenShift  |     |
-| paas  | PaaS     | Railway    |     |
-| paas  | PaaS     | Render     |     |
+| Group | Category | Name       | URL                                               |
+| ----- | -------- | ---------- | ------------------------------------------------- |
+| paas  | PaaS     | App Engine | [App Engine](https://cloud.google.com/appengine/) |
+| paas  | PaaS     | Heroku     | [Heroku](https://www.heroku.com/)                 |
+| paas  | PaaS     | OpenShift  | [OpenShift](https://www.openshift.com/)           |
+| paas  | PaaS     | Railway    | [Railway](https://railway.app/)                   |
+| paas  | PaaS     | Render     | [Render](https://render.com/)                     |
 
 
 ## BaaS
 
-| Group | Category | Name       | URL |
-| ----- | -------- | ---------- | --- |
-| baas  | BaaS     | AppWrite   |     |
-| baas  | BaaS     | Firebase   |     |
-| baas  | BaaS     | NHost      |     |
-| baas  | BaaS     | PocketBase |     |
-| baas  | BaaS     | SupaBase   |     |
+| Group | Category | Name       | URL                                      |
+| ----- | -------- | ---------- | ---------------------------------------- |
+| baas  | BaaS     | AppWrite   | [AppWrite](https://appwrite.io/)         |
+| baas  | BaaS     | Firebase   | [Firebase](https://firebase.google.com/) |
+| baas  | BaaS     | NHost      | [NHost](https://nhost.io/)               |
+| baas  | BaaS     | PocketBase | [PocketBase](https://pocketbase.io/)     |
+| baas  | BaaS     | SupaBase   | [SupaBase](https://supabase.com/)        |
 
 
 ## IaaS
@@ -525,22 +620,23 @@
 
 ## IaC
 
-| Group | Category | Name               | URL |
-| ----- | -------- | ------------------ | --- |
-| iac   | IaC      | OpenTofu           |     |
-| iac   | IaC      | Terraform          |     |
-| iac   | IaC      | AWS CloudFormation |     |
+| Group | Category | Name               | URL                                                          |
+| ----- | -------- | ------------------ | ------------------------------------------------------------ |
+| iac   | IaC      | OpenTofu           | [OpenTofu](https://opentofu.org/)                            |
+| iac   | IaC      | Terraform          | [Terraform](https://www.terraform.io/)                       |
+| iac   | IaC      | AWS CloudFormation | [AWS CloudFormation](https://aws.amazon.com/cloudformation/) |
+
 
 ## Social
 
-| Group  | Category | Name        | URL |
-| ------ | -------- | ----------- | --- |
-| social | Social   | YouTube     |     |
-| social | Social   | Facebook    |     |
-| social | Social   | Instagram   |     |
-| social | Social   | Messenger   |     |
-| social | Social   | Threads     |     |
-| social | Social   | Reddit      |     |
-| social | Social   | Tiktok      |     |
-| social | Social   | X (Twitter) |     |
-| social | Social   | Shopify     |     |
+| Group  | Category | Name        | URL                                     |
+| ------ | -------- | ----------- | --------------------------------------- |
+| social | Social   | YouTube     | [YouTube](https://www.youtube.com/)     |
+| social | Social   | Facebook    | [Facebook](https://www.facebook.com/)   |
+| social | Social   | Instagram   | [Instagram](https://www.instagram.com/) |
+| social | Social   | Messenger   | [Messenger](https://www.messenger.com/) |
+| social | Social   | Threads     | [Threads](https://threads.net/)         |
+| social | Social   | Reddit      | [Reddit](https://www.reddit.com/)       |
+| social | Social   | Tiktok      | [Tiktok](https://www.tiktok.com/)       |
+| social | Social   | X (Twitter) | [X (Twitter)](https://twitter.com/)     |
+| social | Social   | Shopify     | [Shopify](https://www.shopify.com/)     |
