@@ -265,6 +265,115 @@
     ]
   },
   {
+    "id": "engines",
+    "category": "Engines",
+    "technologies": [
+      {
+        "id": "hermes",
+        "name": "Hermes",
+        "href": "https://hermesengine.dev/"
+      },
+      {
+        "id": "javascriptcore",
+        "name": "JavaScriptCore",
+        "href": "https://developer.apple.com/documentation/javascriptcore"
+      },
+      {
+        "id": "quickjs",
+        "name": "QuickJS",
+        "href": "https://bellard.org/quickjs/"
+      },
+      {
+        "id": "spidermonkey",
+        "name": "SpiderMonkey",
+        "href": "https://spidermonkey.dev/"
+      },
+      {
+        "id": "v8",
+        "name": "V8",
+        "href": "https://v8.dev/"
+      }
+    ]
+  },
+  {
+    "id": "runtimes",
+    "category": "Runtimes",
+    "technologies": [
+      {
+        "id": "bun",
+        "name": "Bun",
+        "href": "https://bun.sh/"
+      },
+      {
+        "id": "llrt",
+        "name": "LLRT",
+        "href": "https://github.com/awslabs/llrt"
+      },
+      {
+        "id": "deno",
+        "name": "Deno",
+        "href": "https://deno.com/"
+      },
+      {
+        "id": "node-js",
+        "name": "Node.js",
+        "href": "https://nodejs.org/"
+      },
+      {
+        "id": "winterjs",
+        "name": "WinterJS",
+        "href": "https://github.com/wasmerio/winterjs"
+      }
+    ]
+  },
+  {
+    "id": "package-registries",
+    "category": "Package Registries",
+    "technologies": [
+      {
+        "id": "npm-registry",
+        "name": "npm Registry",
+        "href": "https://www.npmjs.com/"
+      },
+      {
+        "id": "jsr",
+        "name": "JSR",
+        "href": "https://jsr.io/"
+      },
+      {
+        "id": "github-packages",
+        "name": "GitHub Packages",
+        "href": "https://github.com/features/packages"
+      }
+    ]
+  },
+  {
+    "id": "package-managers",
+    "category": "Package Managers",
+    "technologies": [
+      {
+        "id": "npm",
+        "name": "npm",
+        "href": "https://www.npmjs.com/"
+      },
+      {
+        "id": "pnpm",
+        "name": "pnpm",
+        "href": "https://pnpm.io/"
+      },
+      {
+        "id": "yarn",
+        "name": "Yarn",
+        "href": "https://yarnpkg.com/"
+      },
+      {
+        "id": "volt",
+        "name": "Volt",
+        "href": "https://volta.sh/"
+      }
+    ]
+  },
+  {
     "id": "formatter",
     "category": "Formatter",
     "technologies": [
