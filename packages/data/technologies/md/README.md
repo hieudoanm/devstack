@@ -251,6 +251,7 @@
 
 | Group | Category | Name | URL |
 | ----- | -------- | ---- | --- |
+| web-frameworks | Web Frameworks | HTMX | [HTMX](https://htmx.org/) |
 | web-frameworks | Web Frameworks | Angular | [Angular](https://angular.dev/) |
 | web-frameworks | Web Frameworks | AngularJS | [AngularJS](https://angularjs.org/) |
 | web-frameworks | Web Frameworks | Backbone.js | [Backbone.js](https://backbonejs.org/) |
@@ -365,6 +366,18 @@
 | websocket-frameworks | WebSocket Frameworks | Socket.io | [Socket.io](https://socket.io/) |
 | websocket-frameworks | WebSocket Frameworks | SockJS | [SockJS](https://github.com/sockjs/sockjs-client) |
 | websocket-frameworks | WebSocket Frameworks | WS | [WS](https://github.com/websockets/ws) |
+
+
+## API Documentation
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| api-documentation | API Documentation | Swagger | [Swagger](https://swagger.io/) |
+| api-documentation | API Documentation | Redoc | [Redoc](https://github.com/Redocly/redoc) |
+| api-documentation | API Documentation | Postman | [Postman](https://www.postman.com/) |
+| api-documentation | API Documentation | Stoplight | [Stoplight](https://stoplight.io/) |
+| api-documentation | API Documentation | RapiDocs | [RapiDocs](https://mrin9.github.io/RapiDoc/) |
+| api-documentation | API Documentation | Insomnia | [Insomnia](https://insomnia.rest/) |
 
 
 ## Message Broker
@@ -674,4 +687,83 @@
 | ----- | -------- | ---- | --- |
 | ai-accelerators | AI Accelerator Chips | NVIDIA Tensor Core GPU | [NVIDIA Tensor Core GPU](https://www.nvidia.com/en-us/data-center/tensor-core/) |
 | ai-accelerators | AI Accelerator Chips | Google TPU | [Google TPU](https://cloud.google.com/tpu) |
+
+
+## AI
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| ai | AI | Google Gemini | [Google Gemini](https://gemini.google.com/) |
+| ai | AI | Microsoft Copilot | [Microsoft Copilot](https://www.microsoft.com/copilot) |
+
+
+## Calendar
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| calendar | Calendar | Google Calendar | [Google Calendar](https://calendar.google.com/) |
+| calendar | Calendar | Microsoft Outlook Calendar | [Microsoft Outlook Calendar](https://outlook.live.com/calendar/) |
+
+
+## Email
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| email | Email | Gmail | [Gmail](https://mail.google.com/) |
+| email | Email | Microsoft Outlook | [Microsoft Outlook](https://outlook.live.com/) |
+
+
+## Document
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| document | Document | Google Docs | [Google Docs](https://docs.google.com/) |
+| document | Document | Microsoft Word | [Microsoft Word](https://www.office.com/launch/word) |
+
+
+## Spreadsheet
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| spreadsheet | Spreadsheet | Google Sheets | [Google Sheets](https://sheets.google.com/) |
+| spreadsheet | Spreadsheet | Microsoft Excel | [Microsoft Excel](https://www.office.com/launch/excel) |
+
+
+## Presentation
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| presentation | Presentation | Google Slides | [Google Slides](https://slides.google.com/) |
+| presentation | Presentation | Microsoft PowerPoint | [Microsoft PowerPoint](https://www.office.com/launch/powerpoint) |
+
+
+## Cloud Storage
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| storage | Cloud Storage | Google Drive | [Google Drive](https://drive.google.com/) |
+| storage | Cloud Storage | Microsoft OneDrive | [Microsoft OneDrive](https://onedrive.live.com/) |
+
+
+## Video Conferencing
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| video | Video Conferencing | Google Meet | [Google Meet](https://meet.google.com/) |
+| video | Video Conferencing | Microsoft Teams | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) |
+
+
+## Messaging
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| messaging | Messaging | Google Chat | [Google Chat](https://chat.google.com/) |
+
+
+## Notes
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| notes | Notes | Google Keep | [Google Keep](https://keep.google.com/) |
+| notes | Notes | Microsoft OneNote | [Microsoft OneNote](https://www.onenote.com/) |
 

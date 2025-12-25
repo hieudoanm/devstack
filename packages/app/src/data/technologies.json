@@ -991,6 +991,13 @@
     "category": "Web Frameworks",
     "technologies": [
       {
+        "id": "htmx",
+        "name": "HTMX",
+        "href": "https://htmx.org/",
+        "group": "web-frameworks",
+        "category": "Web Frameworks"
+      },
+      {
         "id": "angular",
         "name": "Angular",
         "href": "https://angular.dev/",
@@ -1463,6 +1470,54 @@
         "href": "https://github.com/websockets/ws",
         "group": "websocket-frameworks",
         "category": "WebSocket Frameworks"
+      }
+    ]
+  },
+  {
+    "id": "api-documentation",
+    "category": "API Documentation",
+    "technologies": [
+      {
+        "id": "swagger",
+        "name": "Swagger",
+        "href": "https://swagger.io/",
+        "group": "api-documentation",
+        "category": "API Documentation"
+      },
+      {
+        "id": "redoc",
+        "name": "Redoc",
+        "href": "https://github.com/Redocly/redoc",
+        "group": "api-documentation",
+        "category": "API Documentation"
+      },
+      {
+        "id": "postman",
+        "name": "Postman",
+        "href": "https://www.postman.com/",
+        "group": "api-documentation",
+        "category": "API Documentation"
+      },
+      {
+        "id": "stoplight",
+        "name": "Stoplight",
+        "href": "https://stoplight.io/",
+        "group": "api-documentation",
+        "category": "API Documentation"
+      },
+      {
+        "id": "rapidocs",
+        "name": "RapiDocs",
+        "href": "https://mrin9.github.io/RapiDoc/",
+        "group": "api-documentation",
+        "category": "API Documentation"
+      },
+      {
+        "id": "insomnia",
+        "name": "Insomnia",
+        "href": "https://insomnia.rest/",
+        "group": "api-documentation",
+        "category": "API Documentation"
       }
     ]
   },
@@ -2510,6 +2565,199 @@
         "href": "https://cloud.google.com/tpu",
         "group": "ai-accelerators",
         "category": "AI Accelerator Chips"
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "category": "AI",
+    "technologies": [
+      {
+        "id": "google-gemini",
+        "name": "Google Gemini",
+        "href": "https://gemini.google.com/",
+        "group": "ai",
+        "category": "AI"
+      },
+      {
+        "id": "microsoft-copilot",
+        "name": "Microsoft Copilot",
+        "href": "https://www.microsoft.com/copilot",
+        "group": "ai",
+        "category": "AI"
+      }
+    ]
+  },
+  {
+    "id": "calendar",
+    "category": "Calendar",
+    "technologies": [
+      {
+        "id": "google-calendar",
+        "name": "Google Calendar",
+        "href": "https://calendar.google.com/",
+        "group": "calendar",
+        "category": "Calendar"
+      },
+      {
+        "id": "microsoft-outlook-calendar",
+        "name": "Microsoft Outlook Calendar",
+        "href": "https://outlook.live.com/calendar/",
+        "group": "calendar",
+        "category": "Calendar"
+      }
+    ]
+  },
+  {
+    "id": "email",
+    "category": "Email",
+    "technologies": [
+      {
+        "id": "gmail",
+        "name": "Gmail",
+        "href": "https://mail.google.com/",
+        "group": "email",
+        "category": "Email"
+      },
+      {
+        "id": "microsoft-outlook",
+        "name": "Microsoft Outlook",
+        "href": "https://outlook.live.com/",
+        "group": "email",
+        "category": "Email"
+      }
+    ]
+  },
+  {
+    "id": "document",
+    "category": "Document",
+    "technologies": [
+      {
+        "id": "google-docs",
+        "name": "Google Docs",
+        "href": "https://docs.google.com/",
+        "group": "document",
+        "category": "Document"
+      },
+      {
+        "id": "microsoft-word",
+        "name": "Microsoft Word",
+        "href": "https://www.office.com/launch/word",
+        "group": "document",
+        "category": "Document"
+      }
+    ]
+  },
+  {
+    "id": "spreadsheet",
+    "category": "Spreadsheet",
+    "technologies": [
+      {
+        "id": "google-sheets",
+        "name": "Google Sheets",
+        "href": "https://sheets.google.com/",
+        "group": "spreadsheet",
+        "category": "Spreadsheet"
+      },
+      {
+        "id": "microsoft-excel",
+        "name": "Microsoft Excel",
+        "href": "https://www.office.com/launch/excel",
+        "group": "spreadsheet",
+        "category": "Spreadsheet"
+      }
+    ]
+  },
+  {
+    "id": "presentation",
+    "category": "Presentation",
+    "technologies": [
+      {
+        "id": "google-slides",
+        "name": "Google Slides",
+        "href": "https://slides.google.com/",
+        "group": "presentation",
+        "category": "Presentation"
+      },
+      {
+        "id": "microsoft-powerpoint",
+        "name": "Microsoft PowerPoint",
+        "href": "https://www.office.com/launch/powerpoint",
+        "group": "presentation",
+        "category": "Presentation"
+      }
+    ]
+  },
+  {
+    "id": "storage",
+    "category": "Cloud Storage",
+    "technologies": [
+      {
+        "id": "google-drive",
+        "name": "Google Drive",
+        "href": "https://drive.google.com/",
+        "group": "storage",
+        "category": "Cloud Storage"
+      },
+      {
+        "id": "microsoft-onedrive",
+        "name": "Microsoft OneDrive",
+        "href": "https://onedrive.live.com/",
+        "group": "storage",
+        "category": "Cloud Storage"
+      }
+    ]
+  },
+  {
+    "id": "video",
+    "category": "Video Conferencing",
+    "technologies": [
+      {
+        "id": "google-meet",
+        "name": "Google Meet",
+        "href": "https://meet.google.com/",
+        "group": "video",
+        "category": "Video Conferencing"
+      },
+      {
+        "id": "microsoft-teams",
+        "name": "Microsoft Teams",
+        "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+        "group": "video",
+        "category": "Video Conferencing"
+      }
+    ]
+  },
+  {
+    "id": "messaging",
+    "category": "Messaging",
+    "technologies": [
+      {
+        "id": "google-chat",
+        "name": "Google Chat",
+        "href": "https://chat.google.com/",
+        "group": "messaging",
+        "category": "Messaging"
+      }
+    ]
+  },
+  {
+    "id": "notes",
+    "category": "Notes",
+    "technologies": [
+      {
+        "id": "google-keep",
+        "name": "Google Keep",
+        "href": "https://keep.google.com/",
+        "group": "notes",
+        "category": "Notes"
+      },
+      {
+        "id": "microsoft-onenote",
+        "name": "Microsoft OneNote",
+        "href": "https://www.onenote.com/",
+        "group": "notes",
+        "category": "Notes"
       }
     ]
   }
