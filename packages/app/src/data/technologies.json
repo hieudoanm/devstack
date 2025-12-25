@@ -2304,6 +2304,47 @@
     ]
   },
   {
+    "id": "public-dns",
+    "category": "Public DNS",
+    "technologies": [
+      {
+        "id": "cloudflare-1-1-1-1",
+        "name": "Cloudflare 1.1.1.1",
+        "href": "https://1.1.1.1/",
+        "group": "public-dns",
+        "category": "Public DNS"
+      },
+      {
+        "id": "google-8-8-8-8",
+        "name": "Google 8.8.8.8",
+        "href": "https://developers.google.com/speed/public-dns",
+        "group": "public-dns",
+        "category": "Public DNS"
+      },
+      {
+        "id": "quad9-9-9-9-9",
+        "name": "Quad9 9.9.9.9",
+        "href": "https://www.quad9.net/",
+        "group": "public-dns",
+        "category": "Public DNS"
+      },
+      {
+        "id": "opendns-208-67-222-222",
+        "name": "OpenDNS 208.67.222.222",
+        "href": "https://www.opendns.com/",
+        "group": "public-dns",
+        "category": "Public DNS"
+      },
+      {
+        "id": "cleanbrowsing-185-228-168-9",
+        "name": "CleanBrowsing 185.228.168.9",
+        "href": "https://cleanbrowsing.org/",
+        "group": "public-dns",
+        "category": "Public DNS"
+      }
+    ]
+  },
+  {
     "id": "social",
     "category": "Social",
     "technologies": [
@@ -2369,6 +2410,106 @@
         "href": "https://www.shopify.com/",
         "group": "social",
         "category": "Social"
+      }
+    ]
+  },
+  {
+    "id": "processors",
+    "category": "Computer Processors",
+    "technologies": [
+      {
+        "id": "intel",
+        "name": "Intel",
+        "href": "https://www.intel.com/",
+        "group": "processors",
+        "category": "Computer Processors"
+      },
+      {
+        "id": "amd",
+        "name": "AMD",
+        "href": "https://www.amd.com/",
+        "group": "processors",
+        "category": "Computer Processors"
+      }
+    ]
+  },
+  {
+    "id": "smartphone-chips",
+    "category": "Smartphone Chips",
+    "technologies": [
+      {
+        "id": "apple-a-series",
+        "name": "Apple (A-series)",
+        "href": "https://www.apple.com/iphone/",
+        "group": "smartphone-chips",
+        "category": "Smartphone Chips"
+      },
+      {
+        "id": "qualcomm-snapdragon",
+        "name": "Qualcomm Snapdragon",
+        "href": "https://www.qualcomm.com/products/snapdragon",
+        "group": "smartphone-chips",
+        "category": "Smartphone Chips"
+      }
+    ]
+  },
+  {
+    "id": "gpu",
+    "category": "Graphics Cards",
+    "technologies": [
+      {
+        "id": "nvidia",
+        "name": "NVIDIA",
+        "href": "https://www.nvidia.com/",
+        "group": "gpu",
+        "category": "Graphics Cards"
+      },
+      {
+        "id": "amd-gpu",
+        "name": "AMD GPU",
+        "href": "https://www.amd.com/en/graphics",
+        "group": "gpu",
+        "category": "Graphics Cards"
+      }
+    ]
+  },
+  {
+    "id": "microcontrollers",
+    "category": "Embedded Systems / Microcontrollers",
+    "technologies": [
+      {
+        "id": "esp32",
+        "name": "ESP32",
+        "href": "https://www.espressif.com/en/products/socs/esp32",
+        "group": "microcontrollers",
+        "category": "Embedded Systems / Microcontrollers"
+      },
+      {
+        "id": "raspberry-pi-pico",
+        "name": "Raspberry Pi Pico",
+        "href": "https://www.raspberrypi.com/products/raspberry-pi-pico/",
+        "group": "microcontrollers",
+        "category": "Embedded Systems / Microcontrollers"
+      }
+    ]
+  },
+  {
+    "id": "ai-accelerators",
+    "category": "AI Accelerator Chips",
+    "technologies": [
+      {
+        "id": "nvidia-tensor-core-gpu",
+        "name": "NVIDIA Tensor Core GPU",
+        "href": "https://www.nvidia.com/en-us/data-center/tensor-core/",
+        "group": "ai-accelerators",
+        "category": "AI Accelerator Chips"
+      },
+      {
+        "id": "google-tpu",
+        "name": "Google TPU",
+        "href": "https://cloud.google.com/tpu",
+        "group": "ai-accelerators",
+        "category": "AI Accelerator Chips"
       }
     ]
   }
