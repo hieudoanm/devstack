@@ -677,6 +677,7 @@
 | social | Social | Facebook | [Facebook](https://www.facebook.com/) |
 | social | Social | Instagram | [Instagram](https://www.instagram.com/) |
 | social | Social | Messenger | [Messenger](https://www.messenger.com/) |
+| social | Social | Telegram | [Telegram](https://core.telegram.org/) |
 | social | Social | Threads | [Threads](https://threads.net/) |
 | social | Social | Reddit | [Reddit](https://www.reddit.com/) |
 | social | Social | Tiktok | [Tiktok](https://www.tiktok.com/) |

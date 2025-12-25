@@ -2533,6 +2533,13 @@
         "category": "Social"
       },
       {
+        "id": "telegram",
+        "name": "Telegram",
+        "href": "https://core.telegram.org/",
+        "group": "social",
+        "category": "Social"
+      },
+      {
         "id": "threads",
         "name": "Threads",
         "href": "https://threads.net/",
