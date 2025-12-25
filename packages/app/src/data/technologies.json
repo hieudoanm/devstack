@@ -1141,6 +1141,13 @@
         "href": "https://nuxt.com/",
         "group": "meta-frameworks",
         "category": "Meta Frameworks"
+      },
+      {
+        "id": "t3",
+        "name": "T3",
+        "href": "https://create.t3.com/",
+        "group": "meta-frameworks",
+        "category": "Meta Frameworks"
       }
     ]
   },

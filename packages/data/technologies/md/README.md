@@ -283,6 +283,7 @@
 | meta-frameworks | Meta Frameworks | SolidStart | [SolidStart](https://start.solidjs.com/) |
 | meta-frameworks | Meta Frameworks | SvelteKit | [SvelteKit](https://kit.svelte.dev/) |
 | meta-frameworks | Meta Frameworks | Nuxt | [Nuxt](https://nuxt.com/) |
+| meta-frameworks | Meta Frameworks | T3 | [T3](https://create.t3.com/) |
 
 
 ## Mobile Frameworks
