@@ -73,15 +73,17 @@ const HomePage: NextPage = () => {
                 <div
                   className="absolute top-0 flex h-32 w-full items-center gap-x-8 transition-[left] duration-300 ease-out"
                   style={{
-                    left: `-${techIndex * 8}rem`, // 8rem ≈ card width + gap
+                    left: `calc(16rem - ${techIndex * 8}rem)`, // 8rem ≈ card width + gap
                   }}>
-                  {technologies.map(({ id, name, href }) => (
+                  {technologies.map(({ id, name, href }, tIndex: number) => (
                     <div key={id} className="flex w-24 flex-col gap-y-4">
-                      <div className="mx-auto aspect-square w-24 rounded-md border border-gray-700 shadow-xl" />
+                      <div
+                        className={`mx-auto aspect-square w-24 rounded-md border ${techIndex === tIndex ? 'border-accent' : 'border-gray-700'} shadow-xl`}
+                      />
                       <Link
                         href={href}
                         target="_blank"
-                        className="truncate text-center text-xs">
+                        className={`truncate text-center text-xs ${techIndex === tIndex ? 'text-accent' : 'text-gray-700'}`}>
                         {name}
                       </Link>
                     </div>
