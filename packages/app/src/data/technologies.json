@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "languages",
+    "category": "Languages",
+    "technologies": [
+      {
+        "id": "java",
+        "name": "Java",
+        "href": "https://www.java.com/"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "href": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "id": "c",
+        "name": "C#",
+        "href": "https://learn.microsoft.com/dotnet/csharp/"
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "href": "https://www.python.org/"
+      },
+      {
+        "id": "swift",
+        "name": "Swift",
+        "href": "https://www.swift.org/"
+      },
+      {
+        "id": "kotlin",
+        "name": "Kotlin",
+        "href": "https://kotlinlang.org/"
+      },
+      {
+        "id": "dart",
+        "name": "Dart",
+        "href": "https://dart.dev/"
+      },
+      {
+        "id": "go",
+        "name": "Go",
+        "href": "https://go.dev/"
+      },
+      {
+        "id": "rust",
+        "name": "Rust",
+        "href": "https://www.rust-lang.org/"
+      },
+      {
+        "id": "c",
+        "name": "C",
+        "href": "https://en.cppreference.com/w/c"
+      },
+      {
+        "id": "c",
+        "name": "C++",
+        "href": "https://isocpp.org/"
+      },
+      {
+        "id": "scala",
+        "name": "Scala",
+        "href": "https://www.scala-lang.org/"
+      },
+      {
+        "id": "matlab",
+        "name": "MATLAB",
+        "href": "https://www.mathworks.com/products/matlab.html"
+      },
+      {
+        "id": "r",
+        "name": "R",
+        "href": "https://www.r-project.org/"
+      },
+      {
+        "id": "php",
+        "name": "PHP",
+        "href": "https://www.php.net/"
+      },
+      {
+        "id": "ruby",
+        "name": "Ruby",
+        "href": "https://www.ruby-lang.org/"
+      }
+    ]
+  },
+  {
+    "id": "mobile-operating-system",
+    "category": "Mobile OS",
+    "technologies": [
+      {
+        "id": "apple-ios",
+        "name": "Apple (iOS)",
+        "href": "https://www.apple.com/ios/"
+      },
+      {
+        "id": "android",
+        "name": "Android",
+        "href": "https://www.android.com/"
+      },
+      {
+        "id": "harmonyos",
+        "name": "HarmonyOS",
+        "href": "https://www.harmonyos.com/"
+      },
+      {
+        "id": "kaios",
+        "name": "KaiOS",
+        "href": "https://www.kaiostech.com/"
+      }
+    ]
+  },
+  {
+    "id": "desktop-operating-system",
+    "category": "Desktop OS",
+    "technologies": [
+      {
+        "id": "windows",
+        "name": "Windows",
+        "href": "https://www.microsoft.com/windows"
+      },
+      {
+        "id": "macos",
+        "name": "macOS",
+        "href": "https://www.apple.com/macos/"
+      },
+      {
+        "id": "linux",
+        "name": "Linux",
+        "href": "https://www.linux.org/"
+      },
+      {
+        "id": "chromeos",
+        "name": "ChromeOS",
+        "href": "https://www.google.com/chromebook/chromeos/"
+      },
+      {
+        "id": "freebsd",
+        "name": "FreeBSD",
+        "href": "https://www.freebsd.org/"
+      },
+      {
+        "id": "ubuntu",
+        "name": "Ubuntu",
+        "href": "https://ubuntu.com/"
+      },
+      {
+        "id": "fedora",
+        "name": "Fedora",
+        "href": "https://fedoraproject.org/"
+      },
+      {
+        "id": "debian",
+        "name": "Debian",
+        "href": "https://www.debian.org/"
+      },
+      {
+        "id": "arch-linux",
+        "name": "Arch Linux",
+        "href": "https://archlinux.org/"
+      },
+      {
+        "id": "alpine-linux",
+        "name": "Alpine Linux",
+        "href": "https://alpinelinux.org/"
+      },
+      {
+        "id": "kali-linux",
+        "name": "Kali Linux",
+        "href": "https://www.kali.org/"
+      },
+      {
+        "id": "linux-mint",
+        "name": "Linux Mint",
+        "href": "https://linuxmint.com/"
+      },
+      {
+        "id": "red-hat-enterprise-linux",
+        "name": "Red Hat Enterprise Linux",
+        "href": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+      }
+    ]
+  },
+  {
+    "id": "browsers",
+    "category": "Browsers",
+    "technologies": [
+      {
+        "id": "firefox",
+        "name": "Firefox",
+        "href": "https://www.mozilla.org/firefox/"
+      },
+      {
+        "id": "chrome",
+        "name": "Chrome",
+        "href": "https://www.google.com/chrome/"
+      },
+      {
+        "id": "edge",
+        "name": "Edge",
+        "href": "https://www.microsoft.com/edge"
+      },
+      {
+        "id": "safari",
+        "name": "Safari",
+        "href": "https://www.apple.com/safari/"
+      },
+      {
+        "id": "brave",
+        "name": "Brave",
+        "href": "https://brave.com/"
+      },
+      {
+        "id": "opera",
+        "name": "Opera",
+        "href": "https://www.opera.com/"
+      },
+      {
+        "id": "arc",
+        "name": "Arc",
+        "href": "https://arc.net/"
+      }
+    ]
+  },
+  {
+    "id": "ide",
+    "category": "IDE",
+    "technologies": [
+      {
+        "id": "visual-studio",
+        "name": "Visual Studio",
+        "href": "https://visualstudio.microsoft.com/"
+      },
+      {
+        "id": "visual-studio-code",
+        "name": "Visual Studio Code",
+        "href": "https://code.visualstudio.com/"
+      },
+      {
+        "id": "xcode",
+        "name": "Xcode",
+        "href": "https://developer.apple.com/xcode/"
+      },
+      {
+        "id": "android-studio",
+        "name": "Android Studio",
+        "href": "https://developer.android.com/studio"
+      },
+      {
+        "id": "intellij-idea",
+        "name": "IntelliJ IDEA",
+        "href": "https://www.jetbrains.com/idea/"
+      },
+      {
+        "id": "pycharm",
+        "name": "PyCharm",
+        "href": "https://www.jetbrains.com/pycharm/"
+      }
+    ]
+  },
+  {
+    "id": "formatter",
+    "category": "Formatter",
+    "technologies": [
+      {
+        "id": "prettier",
+        "name": "Prettier",
+        "href": "https://prettier.io/"
+      },
+      {
+        "id": "biome",
+        "name": "Biome",
+        "href": "https://biomejs.dev/"
+      },
+      {
+        "id": "black",
+        "name": "Black",
+        "href": "https://black.readthedocs.io/"
+      },
+      {
+        "id": "gofmt",
+        "name": "gofmt",
+        "href": "https://pkg.go.dev/cmd/gofmt"
+      },
+      {
+        "id": "clang-format",
+        "name": "clang-format",
+        "href": "https://clang.llvm.org/docs/ClangFormat.html"
+      }
+    ]
+  },
+  {
+    "id": "linter",
+    "category": "Linter",
+    "technologies": [
+      {
+        "id": "eslint",
+        "name": "ESLint",
+        "href": "https://eslint.org/"
+      },
+      {
+        "id": "biome",
+        "name": "Biome",
+        "href": "https://biomejs.dev/"
+      },
+      {
+        "id": "stylelint",
+        "name": "Stylelint",
+        "href": "https://stylelint.io/"
+      },
+      {
+        "id": "pylint",
+        "name": "Pylint",
+        "href": "https://pylint.org/"
+      },
+      {
+        "id": "flake8",
+        "name": "Flake8",
+        "href": "https://flake8.pycqa.org/"
+      },
+      {
+        "id": "ruff",
+        "name": "Ruff",
+        "href": "https://docs.astral.sh/ruff/"
+      },
+      {
+        "id": "hadolint",
+        "name": "Hadolint",
+        "href": "https://github.com/hadolint/hadolint"
+      },
+      {
+        "id": "shellcheck",
+        "name": "ShellCheck",
+        "href": "https://www.shellcheck.net/"
+      }
+    ]
+  },
+  {
+    "id": "unit-test",
+    "category": "Unit Test",
+    "technologies": [
+      {
+        "id": "jasmine",
+        "name": "Jasmine",
+        "href": "https://jasmine.github.io/"
+      },
+      {
+        "id": "jest",
+        "name": "Jest",
+        "href": "https://jestjs.io/"
+      },
+      {
+        "id": "mocha",
+        "name": "Mocha",
+        "href": "https://mochajs.org/"
+      },
+      {
+        "id": "testing-library",
+        "name": "Testing Library",
+        "href": "https://testing-library.com/"
+      },
+      {
+        "id": "vitest",
+        "name": "Vitest",
+        "href": "https://vitest.dev/"
+      }
+    ]
+  },
+  {
+    "id": "e2e-test",
+    "category": "E2E Test",
+    "technologies": [
+      {
+        "id": "cypress",
+        "name": "Cypress",
+        "href": "https://www.cypress.io/"
+      },
+      {
+        "id": "karma",
+        "name": "Karma",
+        "href": "https://karma-runner.github.io/"
+      },
+      {
+        "id": "playwright",
+        "name": "Playwright",
+        "href": "https://playwright.dev/"
+      },
+      {
+        "id": "puppeteer",
+        "name": "Puppeteer",
+        "href": "https://pptr.dev/"
+      },
+      {
+        "id": "selenium",
+        "name": "Selenium",
+        "href": "https://www.selenium.dev/"
+      },
+      {
+        "id": "storybook",
+        "name": "Storybook",
+        "href": "https://storybook.js.org/"
+      }
+    ]
+  },
+  {
+    "id": "cli-frameworks",
+    "category": "CLI Frameworks",
+    "technologies": [
+      {
+        "id": "oclif",
+        "name": "oclif",
+        "href": "https://oclif.io/"
+      },
+      {
+        "id": "cobra",
+        "name": "cobra",
+        "href": "https://cobra.dev/"
+      }
+    ]
+  },
+  {
+    "id": "web-frameworks",
+    "category": "Web Frameworks",
+    "technologies": [
+      {
+        "id": "angular",
+        "name": "Angular",
+        "href": "https://angular.dev/"
+      },
+      {
+        "id": "angularjs",
+        "name": "AngularJS",
+        "href": "https://angularjs.org/"
+      },
+      {
+        "id": "backbone-js",
+        "name": "Backbone.js",
+        "href": "https://backbonejs.org/"
+      },
+      {
+        "id": "ember-js",
+        "name": "Ember.js",
+        "href": "https://emberjs.com/"
+      },
+      {
+        "id": "svelte",
+        "name": "Svelte",
+        "href": "https://svelte.dev/"
+      },
+      {
+        "id": "vue-js",
+        "name": "Vue.js",
+        "href": "https://vuejs.org/"
+      },
+      {
+        "id": "react",
+        "name": "React",
+        "href": "https://react.dev/"
+      },
+      {
+        "id": "solid-js",
+        "name": "Solid.js",
+        "href": "https://www.solidjs.com/"
+      },
+      {
+        "id": "preact",
+        "name": "Preact",
+        "href": "https://preactjs.com/"
+      },
+      {
+        "id": "qwik",
+        "name": "Qwik",
+        "href": "https://qwik.builder.io/"
+      }
+    ]
+  },
+  {
+    "id": "meta-frameworks",
+    "category": "Meta Frameworks",
+    "technologies": [
+      {
+        "id": "next-js",
+        "name": "Next.js",
+        "href": "https://nextjs.org/"
+      },
+      {
+        "id": "remix",
+        "name": "Remix",
+        "href": "https://remix.run/"
+      },
+      {
+        "id": "solidstart",
+        "name": "SolidStart",
+        "href": "https://start.solidjs.com/"
+      },
+      {
+        "id": "sveltekit",
+        "name": "SvelteKit",
+        "href": "https://kit.svelte.dev/"
+      },
+      {
+        "id": "nuxt",
+        "name": "Nuxt",
+        "href": "https://nuxt.com/"
+      }
+    ]
+  },
+  {
+    "id": "mobile-frameworks",
+    "category": "Mobile Frameworks",
+    "technologies": [
+      {
+        "id": "ionic",
+        "name": "Ionic",
+        "href": "https://ionicframework.com/"
+      },
+      {
+        "id": "nativescript",
+        "name": "NativeScript",
+        "href": "https://nativescript.org/"
+      },
+      {
+        "id": "lynx",
+        "name": "Lynx",
+        "href": "https://lynxjs.org/"
+      },
+      {
+        "id": "react-native",
+        "name": "React Native",
+        "href": "https://reactnative.dev/"
+      },
+      {
+        "id": "expo",
+        "name": "Expo",
+        "href": "https://expo.dev/"
+      },
+      {
+        "id": "svelte-native",
+        "name": "Svelte Native",
+        "href": "https://svelte-native.technology/"
+      },
+      {
+        "id": "swiftui",
+        "name": "SwiftUI",
+        "href": "https://developer.apple.com/xcode/swiftui/"
+      },
+      {
+        "id": "material-3",
+        "name": "Material 3",
+        "href": "https://m3.material.io/"
+      }
+    ]
+  },
+  {
+    "id": "desktop-frameworks",
+    "category": "Desktop Frameworks",
+    "technologies": [
+      {
+        "id": "electron",
+        "name": "Electron",
+        "href": "https://www.electronjs.org/"
+      },
+      {
+        "id": "tauri",
+        "name": "Tauri",
+        "href": "https://tauri.app/"
+      },
+      {
+        "id": "wails",
+        "name": "Wails",
+        "href": "https://wails.io/"
+      },
+      {
+        "id": "meteor",
+        "name": "Meteor",
+        "href": "https://www.meteor.com/"
+      },
+      {
+        "id": "quasar",
+        "name": "Quasar",
+        "href": "https://quasar.dev/"
+      }
+    ]
+  },
+  {
+    "id": "http-frameworks",
+    "category": "HTTP Frameworks",
+    "technologies": [
+      {
+        "id": "nest-js",
+        "name": "Nest.js",
+        "href": "https://nestjs.com/"
+      },
+      {
+        "id": "trpc",
+        "name": "tRPC",
+        "href": "https://trpc.io/"
+      },
+      {
+        "id": "spring-boot",
+        "name": "Spring Boot",
+        "href": "https://spring.io/projects/spring-boot"
+      },
+      {
+        "id": "fastapi",
+        "name": "FastAPI",
+        "href": "https://fastapi.tiangolo.com/"
+      },
+      {
+        "id": "net",
+        "name": ".NET",
+        "href": "https://dotnet.microsoft.com/"
+      },
+      {
+        "id": "ws",
+        "name": "ws",
+        "href": "https://github.com/websockets/ws"
+      },
+      {
+        "id": "laravel",
+        "name": "Laravel",
+        "href": "https://laravel.com/"
+      },
+      {
+        "id": "express-js",
+        "name": "Express.js",
+        "href": "https://expressjs.com/"
+      },
+      {
+        "id": "fastify",
+        "name": "Fastify",
+        "href": "https://www.fastify.io/"
+      },
+      {
+        "id": "hapi",
+        "name": "Hapi",
+        "href": "https://hapi.dev/"
+      },
+      {
+        "id": "koa",
+        "name": "Koa",
+        "href": "https://koajs.com/"
+      }
+    ]
+  },
+  {
+    "id": "graphql-frameworks",
+    "category": "GraphQL Frameworks",
+    "technologies": [
+      {
+        "id": "graphql-js",
+        "name": "GraphQL.js",
+        "href": "https://graphql.org/"
+      },
+      {
+        "id": "apollo-server",
+        "name": "Apollo Server",
+        "href": "https://www.apollographql.com/docs/apollo-server/"
+      },
+      {
+        "id": "garph",
+        "name": "Garph",
+        "href": "https://garph.dev/"
+      },
+      {
+        "id": "mercurius",
+        "name": "Mercurius",
+        "href": "https://mercurius.dev/"
+      },
+      {
+        "id": "graphql-yoga",
+        "name": "GraphQL Yoga",
+        "href": "https://the-guild.dev/graphql/yoga-server"
+      }
+    ]
+  },
+  {
+    "id": "broker",
+    "category": "Message Broker",
+    "technologies": [
+      {
+        "id": "activemq",
+        "name": "ActiveMQ",
+        "href": "https://activemq.apache.org/"
+      },
+      {
+        "id": "kafka",
+        "name": "Kafka",
+        "href": "https://kafka.apache.org/"
+      },
+      {
+        "id": "rabbitmq",
+        "name": "RabbitMQ",
+        "href": "https://www.rabbitmq.com/"
+      }
+    ]
+  },
+  {
+    "id": "pub-sub",
+    "category": "Publish Subscribe",
+    "technologies": [
+      {
+        "id": "mqtt",
+        "name": "MQTT",
+        "href": "https://mqtt.org/"
+      },
+      {
+        "id": "nats",
+        "name": "NATS",
+        "href": "https://nats.io/"
+      }
+    ]
+  },
+  {
+    "id": "machine-learning-frameworks",
+    "category": "Machine Learning Frameworks",
+    "technologies": [
+      {
+        "id": "tensorflow",
+        "name": "TensorFlow",
+        "href": "https://www.tensorflow.org/"
+      },
+      {
+        "id": "pytorch",
+        "name": "PyTorch",
+        "href": "https://pytorch.org/"
+      }
+    ]
+  },
+  {
+    "id": "orm",
+    "category": "ORM",
+    "technologies": [
+      {
+        "id": "mikroorm",
+        "name": "MikroORM",
+        "href": "https://mikro-orm.io/"
+      },
+      {
+        "id": "prisma",
+        "name": "Prisma",
+        "href": "https://www.prisma.io/"
+      },
+      {
+        "id": "typeorm",
+        "name": "TypeORM",
+        "href": "https://typeorm.io/"
+      },
+      {
+        "id": "drizzle",
+        "name": "Drizzle",
+        "href": "https://orm.drizzle.team/"
+      },
+      {
+        "id": "sequelize",
+        "name": "Sequelize",
+        "href": "https://sequelize.org/"
+      },
+      {
+        "id": "mongoose",
+        "name": "Mongoose",
+        "href": "https://mongoosejs.com/"
+      },
+      {
+        "id": "sqlalchemy",
+        "name": "SQLAlchemy",
+        "href": "https://www.sqlalchemy.org/"
+      }
+    ]
+  },
+  {
+    "id": "nosql-databases",
+    "category": "NoSQL Databases",
+    "technologies": [
+      {
+        "id": "dynamodb",
+        "name": "DynamoDB",
+        "href": "https://aws.amazon.com/dynamodb/"
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "href": "https://www.mongodb.com/"
+      },
+      {
+        "id": "redis",
+        "name": "Redis",
+        "href": "https://redis.io/"
+      }
+    ]
+  },
+  {
+    "id": "sql-databases",
+    "category": "SQL Databases",
+    "technologies": [
+      {
+        "id": "cockroachdb",
+        "name": "CockroachDB",
+        "href": "https://www.cockroachlabs.com/"
+      },
+      {
+        "id": "libsql",
+        "name": "libSQL",
+        "href": "https://libsql.org/"
+      },
+      {
+        "id": "mariadb",
+        "name": "MariaDB",
+        "href": "https://mariadb.org/"
+      },
+      {
+        "id": "ms-sql",
+        "name": "MS SQL",
+        "href": "https://www.microsoft.com/sql-server"
+      },
+      {
+        "id": "mysql",
+        "name": "MySQL",
+        "href": "https://www.mysql.com/"
+      },
+      {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "href": "https://www.postgresql.org/"
+      },
+      {
+        "id": "sqlite",
+        "name": "SQLite",
+        "href": "https://www.sqlite.org/"
+      }
+    ]
+  },
+  {
+    "id": "database-hosting",
+    "category": "Database Hosting",
+    "technologies": [
+      {
+        "id": "neon",
+        "name": "Neon",
+        "href": "https://neon.tech/"
+      },
+      {
+        "id": "planetscale",
+        "name": "PlanetScale",
+        "href": "https://planetscale.com/"
+      }
+    ]
+  },
+  {
+    "id": "version-control",
+    "category": "Version Control",
+    "technologies": [
+      {
+        "id": "bitbucket",
+        "name": "Bitbucket",
+        "href": "https://bitbucket.org/"
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "href": "https://github.com/"
+      },
+      {
+        "id": "gitlab",
+        "name": "GitLab",
+        "href": "https://gitlab.com/"
+      },
+      {
+        "id": "launchpad",
+        "name": "Launchpad",
+        "href": "https://launchpad.net/"
+      }
+    ]
+  },
+  {
+    "id": "containerization",
+    "category": "Containerization",
+    "technologies": [
+      {
+        "id": "containerd",
+        "name": "containerd",
+        "href": "https://containerd.io/"
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "href": "https://www.docker.com/"
+      },
+      {
+        "id": "podman",
+        "name": "Podman",
+        "href": "https://podman.io/"
+      }
+    ]
+  },
+  {
+    "id": "container-management",
+    "category": "Container Management",
+    "technologies": [
+      {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "href": "https://kubernetes.io/"
+      },
+      {
+        "id": "nomad",
+        "name": "Nomad",
+        "href": "https://www.nomadproject.io/"
+      },
+      {
+        "id": "rancher",
+        "name": "Rancher",
+        "href": "https://www.rancher.com/"
+      }
+    ]
+  },
+  {
+    "id": "ci-cd",
+    "category": "CI / CD",
+    "technologies": [
+      {
+        "id": "circleci",
+        "name": "CircleCI",
+        "href": "https://circleci.com/"
+      },
+      {
+        "id": "github-actions",
+        "name": "GitHub Actions",
+        "href": "https://github.com/features/actions"
+      },
+      {
+        "id": "gitlab-ci",
+        "name": "GitLab CI",
+        "href": "https://docs.gitlab.com/ee/ci/"
+      },
+      {
+        "id": "harness",
+        "name": "Harness",
+        "href": "https://www.harness.io/"
+      },
+      {
+        "id": "jenkins",
+        "name": "Jenkins",
+        "href": "https://www.jenkins.io/"
+      },
+      {
+        "id": "travis-ci",
+        "name": "Travis CI",
+        "href": "https://www.travis-ci.com/"
+      }
+    ]
+  },
+  {
+    "id": "observability",
+    "category": "Observability",
+    "technologies": [
+      {
+        "id": "opensearch",
+        "name": "OpenSearch",
+        "href": "https://opensearch.org/"
+      },
+      {
+        "id": "grafana",
+        "name": "Grafana",
+        "href": "https://grafana.com/"
+      },
+      {
+        "id": "splunk",
+        "name": "Splunk",
+        "href": "https://www.splunk.com/"
+      },
+      {
+        "id": "kibana",
+        "name": "Kibana",
+        "href": "https://www.elastic.co/kibana/"
+      },
+      {
+        "id": "datadog",
+        "name": "Datadog",
+        "href": "https://www.datadoghq.com/"
+      }
+    ]
+  },
+  {
+    "id": "secrets-management",
+    "category": "Secrets Management",
+    "technologies": [
+      {
+        "id": "openbao",
+        "name": "OpenBao",
+        "href": "https://openbao.org/"
+      },
+      {
+        "id": "vault",
+        "name": "Vault",
+        "href": "https://www.vaultproject.io/"
+      },
+      {
+        "id": "infisical",
+        "name": "Infisical",
+        "href": "https://infisical.com/"
+      }
+    ]
+  },
+  {
+    "id": "saas-authentication",
+    "category": "Authentication",
+    "technologies": [
+      {
+        "id": "auth0",
+        "name": "Auth0",
+        "href": "https://auth0.com"
+      },
+      {
+        "id": "clerk",
+        "name": "Clerk",
+        "href": "https://clerk.com"
+      },
+      {
+        "id": "keycloak",
+        "name": "Keycloak",
+        "href": "https://www.keycloak.org"
+      },
+      {
+        "id": "okta",
+        "name": "Okta",
+        "href": "https://www.okta.com/"
+      },
+      {
+        "id": "onelogin",
+        "name": "OneLogin",
+        "href": "https://developers.onelogin.com"
+      },
+      {
+        "id": "osso",
+        "name": "OSSO",
+        "href": "https://ossoapp.com"
+      },
+      {
+        "id": "zitadel",
+        "name": "Zitadel",
+        "href": "https://zitadel.com"
+      }
+    ]
+  },
+  {
+    "id": "saas-email",
+    "category": "Email",
+    "technologies": [
+      {
+        "id": "sendgrid",
+        "name": "SendGrid",
+        "href": ""
+      },
+      {
+        "id": "mailgun",
+        "name": "Mailgun",
+        "href": ""
+      },
+      {
+        "id": "postmark",
+        "name": "Postmark",
+        "href": ""
+      },
+      {
+        "id": "mailchimp",
+        "name": "MailChimp",
+        "href": ""
+      },
+      {
+        "id": "resend",
+        "name": "Resend",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "id": "saas-payment",
+    "category": "Payment",
+    "technologies": [
+      {
+        "id": "braintree",
+        "name": "Braintree",
+        "href": ""
+      },
+      {
+        "id": "paddle",
+        "name": "Paddle",
+        "href": ""
+      },
+      {
+        "id": "paypal",
+        "name": "Paypal",
+        "href": ""
+      },
+      {
+        "id": "square",
+        "name": "Square",
+        "href": ""
+      },
+      {
+        "id": "stripe",
+        "name": "Stripe",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "id": "static-pages",
+    "category": "Static Pages",
+    "technologies": [
+      {
+        "id": "cloudflare-pages",
+        "name": "Cloudflare Pages",
+        "href": "https://pages.cloudflare.com/"
+      },
+      {
+        "id": "github-pages",
+        "name": "GitHub Pages",
+        "href": "https://pages.github.com/"
+      }
+    ]
+  },
+  {
+    "id": "server",
+    "category": "Server",
+    "technologies": [
+      {
+        "id": "nginx",
+        "name": "nginx",
+        "href": ""
+      },
+      {
+        "id": "httpd",
+        "name": "httpd",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "id": "serverless",
+    "category": "Serverless",
+    "technologies": [
+      {
+        "id": "cloudflare-workers",
+        "name": "Cloudflare Workers",
+        "href": ""
+      },
+      {
+        "id": "deno-deploy",
+        "name": "Deno Deploy",
+        "href": ""
+      },
+      {
+        "id": "fly",
+        "name": "Fly",
+        "href": ""
+      },
+      {
+        "id": "netlify",
+        "name": "Netlify",
+        "href": ""
+      },
+      {
+        "id": "vercel",
+        "name": "Vercel",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "id": "paas",
+    "category": "PaaS",
+    "technologies": [
+      {
+        "id": "app-engine",
+        "name": "App Engine",
+        "href": ""
+      },
+      {
+        "id": "heroku",
+        "name": "Heroku",
+        "href": ""
+      },
+      {
+        "id": "openshift",
+        "name": "OpenShift",
+        "href": ""
+      },
+      {
+        "id": "railway",
+        "name": "Railway",
+        "href": ""
+      },
+      {
+        "id": "render",
+        "name": "Render",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "id": "baas",
+    "category": "BaaS",
+    "technologies": [
+      {
+        "id": "appwrite",
+        "name": "AppWrite",
+        "href": ""
+      },
+      {
+        "id": "firebase",
+        "name": "Firebase",
+        "href": ""
+      },
+      {
+        "id": "nhost",
+        "name": "NHost",
+        "href": ""
+      },
+      {
+        "id": "pocketbase",
+        "name": "PocketBase",
+        "href": ""
+      },
+      {
+        "id": "supabase",
+        "name": "SupaBase",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "id": "iaas",
+    "category": "IaaS",
+    "technologies": [
+      {
+        "id": "azure",
+        "name": "Azure",
+        "href": "https://azure.microsoft.com"
+      },
+      {
+        "id": "aws",
+        "name": "AWS",
+        "href": "https://aws.amazon.com"
+      },
+      {
+        "id": "digital-ocean",
+        "name": "Digital Ocean",
+        "href": "https://www.digitalocean.com"
+      },
+      {
+        "id": "google-cloud",
+        "name": "Google Cloud",
+        "href": "https://cloud.google.com"
+      },
+      {
+        "id": "ibm-cloud",
+        "name": "IBM Cloud",
+        "href": "https://www.ibm.com/cloud"
+      }
+    ]
+  },
+  {
+    "id": "iac",
+    "category": "IaC",
+    "technologies": [
+      {
+        "id": "opentofu",
+        "name": "OpenTofu",
+        "href": ""
+      },
+      {
+        "id": "terraform",
+        "name": "Terraform",
+        "href": ""
+      },
+      {
+        "id": "aws-cloudformation",
+        "name": "AWS CloudFormation",
+        "href": ""
+      }
+    ]
+  },
+  {
+    "id": "social",
+    "category": "Social",
+    "technologies": [
+      {
+        "id": "youtube",
+        "name": "YouTube",
+        "href": ""
+      },
+      {
+        "id": "facebook",
+        "name": "Facebook",
+        "href": ""
+      },
+      {
+        "id": "instagram",
+        "name": "Instagram",
+        "href": ""
+      },
+      {
+        "id": "messenger",
+        "name": "Messenger",
+        "href": ""
+      },
+      {
+        "id": "threads",
+        "name": "Threads",
+        "href": ""
+      },
+      {
+        "id": "reddit",
+        "name": "Reddit",
+        "href": ""
+      },
+      {
+        "id": "tiktok",
+        "name": "Tiktok",
+        "href": ""
+      },
+      {
+        "id": "x-twitter",
+        "name": "X (Twitter)",
+        "href": ""
+      },
+      {
+        "id": "shopify",
+        "name": "Shopify",
+        "href": ""
+      }
+    ]
+  }
+]
