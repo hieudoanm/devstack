@@ -339,6 +339,16 @@
 | chart | Chart | TanStack Chart | [TanStack Chart](https://tanstack.com/charts) |
 
 
+## Query
+
+| Group | Category | Name | URL |
+| ----- | -------- | ---- | --- |
+| query | Query | Apollo Client | [Apollo Client](https://www.apollographql.com/docs/react/) |
+| query | Query | Axios | [Axios](https://axios-http.com/) |
+| query | Query | SWR | [SWR](https://swr.vercel.app/) |
+| query | Query | TanStack Query | [TanStack Query](https://tanstack.com/query/v4) |
+
+
 ## HTTP Frameworks
 
 | Group | Category | Name | URL |
@@ -674,13 +684,6 @@
 | social | Social | Shopify | [Shopify](https://www.shopify.com/) |
 
 
-## category
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| category_id | category | name | [name](href) |
-
-
 ## AI Accelerator Chips
 
 | Group | Category | Name | URL |
@@ -717,7 +720,9 @@
 
 | Group | Category | Name | URL |
 | ----- | -------- | ---- | --- |
+| microcontrollers | Embedded Systems / Microcontrollers | Arduino | [Arduino](https://www.arduino.cc/) |
 | microcontrollers | Embedded Systems / Microcontrollers | ESP32 | [ESP32](https://www.espressif.com/en/products/socs/esp32) |
+| microcontrollers | Embedded Systems / Microcontrollers | Raspberry Pi | [Raspberry Pi](https://www.raspberrypi.com/) |
 | microcontrollers | Embedded Systems / Microcontrollers | Raspberry Pi Pico | [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) |
 
 

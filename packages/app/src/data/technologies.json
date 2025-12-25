@@ -1343,6 +1343,40 @@
     ]
   },
   {
+    "id": "query",
+    "category": "Query",
+    "technologies": [
+      {
+        "id": "apollo-client",
+        "name": "Apollo Client",
+        "href": "https://www.apollographql.com/docs/react/",
+        "group": "query",
+        "category": "Query"
+      },
+      {
+        "id": "axios",
+        "name": "Axios",
+        "href": "https://axios-http.com/",
+        "group": "query",
+        "category": "Query"
+      },
+      {
+        "id": "swr",
+        "name": "SWR",
+        "href": "https://swr.vercel.app/",
+        "group": "query",
+        "category": "Query"
+      },
+      {
+        "id": "tanstack-query",
+        "name": "TanStack Query",
+        "href": "https://tanstack.com/query/v4",
+        "group": "query",
+        "category": "Query"
+      }
+    ]
+  },
+  {
     "id": "http-frameworks",
     "category": "HTTP Frameworks",
     "technologies": [
@@ -2536,19 +2570,6 @@
     ]
   },
   {
-    "id": "category-id",
-    "category": "category",
-    "technologies": [
-      {
-        "id": "name",
-        "name": "name",
-        "href": "href",
-        "group": "category_id",
-        "category": "category"
-      }
-    ]
-  },
-  {
     "id": "ai-accelerators",
     "category": "AI Accelerator Chips",
     "technologies": [
@@ -2633,9 +2654,23 @@
     "category": "Embedded Systems / Microcontrollers",
     "technologies": [
       {
+        "id": "arduino",
+        "name": "Arduino",
+        "href": "https://www.arduino.cc/",
+        "group": "microcontrollers",
+        "category": "Embedded Systems / Microcontrollers"
+      },
+      {
         "id": "esp32",
         "name": "ESP32",
         "href": "https://www.espressif.com/en/products/socs/esp32",
+        "group": "microcontrollers",
+        "category": "Embedded Systems / Microcontrollers"
+      },
+      {
+        "id": "raspberry-pi",
+        "name": "Raspberry Pi",
+        "href": "https://www.raspberrypi.com/",
         "group": "microcontrollers",
         "category": "Embedded Systems / Microcontrollers"
       },
