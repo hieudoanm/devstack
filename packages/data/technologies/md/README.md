@@ -709,81 +709,33 @@
 | semiconductor | Foundries | TSMC | [TSMC](https://www.tsmc.com/) |
 
 
-## AI
+## Google Ecosystem
 
 | Group | Category | Name | URL |
 | ----- | -------- | ---- | --- |
-| ai | AI | Google Gemini | [Google Gemini](https://gemini.google.com/) |
-| ai | AI | Microsoft Copilot | [Microsoft Copilot](https://www.microsoft.com/copilot) |
+| google-ecosystem | Google Ecosystem | Google Gemini | [Google Gemini](https://gemini.google.com/) |
+| google-ecosystem | Google Ecosystem | Google Calendar | [Google Calendar](https://calendar.google.com/) |
+| google-ecosystem | Google Ecosystem | Gmail | [Gmail](https://mail.google.com/) |
+| google-ecosystem | Google Ecosystem | Google Docs | [Google Docs](https://docs.google.com/) |
+| google-ecosystem | Google Ecosystem | Google Sheets | [Google Sheets](https://sheets.google.com/) |
+| google-ecosystem | Google Ecosystem | Google Slides | [Google Slides](https://slides.google.com/) |
+| google-ecosystem | Google Ecosystem | Google Drive | [Google Drive](https://drive.google.com/) |
+| google-ecosystem | Google Ecosystem | Google Meet | [Google Meet](https://meet.google.com/) |
+| google-ecosystem | Google Ecosystem | Google Chat | [Google Chat](https://chat.google.com/) |
+| google-ecosystem | Google Ecosystem | Google Keep | [Google Keep](https://keep.google.com/) |
 
 
-## Calendar
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| calendar | Calendar | Google Calendar | [Google Calendar](https://calendar.google.com/) |
-| calendar | Calendar | Microsoft Outlook Calendar | [Microsoft Outlook Calendar](https://outlook.live.com/calendar/) |
-
-
-## Email
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| email | Email | Gmail | [Gmail](https://mail.google.com/) |
-| email | Email | Microsoft Outlook | [Microsoft Outlook](https://outlook.live.com/) |
-
-
-## Document
+## Microsoft Ecosystem
 
 | Group | Category | Name | URL |
 | ----- | -------- | ---- | --- |
-| document | Document | Google Docs | [Google Docs](https://docs.google.com/) |
-| document | Document | Microsoft Word | [Microsoft Word](https://www.office.com/launch/word) |
-
-
-## Spreadsheet
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| spreadsheet | Spreadsheet | Google Sheets | [Google Sheets](https://sheets.google.com/) |
-| spreadsheet | Spreadsheet | Microsoft Excel | [Microsoft Excel](https://www.office.com/launch/excel) |
-
-
-## Presentation
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| presentation | Presentation | Google Slides | [Google Slides](https://slides.google.com/) |
-| presentation | Presentation | Microsoft PowerPoint | [Microsoft PowerPoint](https://www.office.com/launch/powerpoint) |
-
-
-## Cloud Storage
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| storage | Cloud Storage | Google Drive | [Google Drive](https://drive.google.com/) |
-| storage | Cloud Storage | Microsoft OneDrive | [Microsoft OneDrive](https://onedrive.live.com/) |
-
-
-## Video Conferencing
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| video | Video Conferencing | Google Meet | [Google Meet](https://meet.google.com/) |
-| video | Video Conferencing | Microsoft Teams | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) |
-
-
-## Messaging
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| messaging | Messaging | Google Chat | [Google Chat](https://chat.google.com/) |
-
-
-## Notes
-
-| Group | Category | Name | URL |
-| ----- | -------- | ---- | --- |
-| notes | Notes | Google Keep | [Google Keep](https://keep.google.com/) |
-| notes | Notes | Microsoft OneNote | [Microsoft OneNote](https://www.onenote.com/) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft Copilot | [Microsoft Copilot](https://www.microsoft.com/copilot) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft Outlook Calendar | [Microsoft Outlook Calendar](https://outlook.live.com/calendar/) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft Outlook | [Microsoft Outlook](https://outlook.live.com/) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft Word | [Microsoft Word](https://www.office.com/launch/word) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft Excel | [Microsoft Excel](https://www.office.com/launch/excel) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft PowerPoint | [Microsoft PowerPoint](https://www.office.com/launch/powerpoint) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft OneDrive | [Microsoft OneDrive](https://onedrive.live.com/) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft Teams | [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) |
+| microsoft-ecosystem | Microsoft Ecosystem | Microsoft OneNote | [Microsoft OneNote](https://www.onenote.com/) |
 

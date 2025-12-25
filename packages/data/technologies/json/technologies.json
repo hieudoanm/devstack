@@ -2637,195 +2637,147 @@
     ]
   },
   {
-    "id": "ai",
-    "category": "AI",
+    "id": "google-ecosystem",
+    "category": "Google Ecosystem",
     "technologies": [
       {
         "id": "google-gemini",
         "name": "Google Gemini",
         "href": "https://gemini.google.com/",
-        "group": "ai",
-        "category": "AI"
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
       },
-      {
-        "id": "microsoft-copilot",
-        "name": "Microsoft Copilot",
-        "href": "https://www.microsoft.com/copilot",
-        "group": "ai",
-        "category": "AI"
-      }
-    ]
-  },
-  {
-    "id": "calendar",
-    "category": "Calendar",
-    "technologies": [
       {
         "id": "google-calendar",
         "name": "Google Calendar",
         "href": "https://calendar.google.com/",
-        "group": "calendar",
-        "category": "Calendar"
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      },
+      {
+        "id": "gmail",
+        "name": "Gmail",
+        "href": "https://mail.google.com/",
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      },
+      {
+        "id": "google-docs",
+        "name": "Google Docs",
+        "href": "https://docs.google.com/",
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      },
+      {
+        "id": "google-sheets",
+        "name": "Google Sheets",
+        "href": "https://sheets.google.com/",
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      },
+      {
+        "id": "google-slides",
+        "name": "Google Slides",
+        "href": "https://slides.google.com/",
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      },
+      {
+        "id": "google-drive",
+        "name": "Google Drive",
+        "href": "https://drive.google.com/",
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      },
+      {
+        "id": "google-meet",
+        "name": "Google Meet",
+        "href": "https://meet.google.com/",
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      },
+      {
+        "id": "google-chat",
+        "name": "Google Chat",
+        "href": "https://chat.google.com/",
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      },
+      {
+        "id": "google-keep",
+        "name": "Google Keep",
+        "href": "https://keep.google.com/",
+        "group": "google-ecosystem",
+        "category": "Google Ecosystem"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-ecosystem",
+    "category": "Microsoft Ecosystem",
+    "technologies": [
+      {
+        "id": "microsoft-copilot",
+        "name": "Microsoft Copilot",
+        "href": "https://www.microsoft.com/copilot",
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       },
       {
         "id": "microsoft-outlook-calendar",
         "name": "Microsoft Outlook Calendar",
         "href": "https://outlook.live.com/calendar/",
-        "group": "calendar",
-        "category": "Calendar"
-      }
-    ]
-  },
-  {
-    "id": "email",
-    "category": "Email",
-    "technologies": [
-      {
-        "id": "gmail",
-        "name": "Gmail",
-        "href": "https://mail.google.com/",
-        "group": "email",
-        "category": "Email"
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       },
       {
         "id": "microsoft-outlook",
         "name": "Microsoft Outlook",
         "href": "https://outlook.live.com/",
-        "group": "email",
-        "category": "Email"
-      }
-    ]
-  },
-  {
-    "id": "document",
-    "category": "Document",
-    "technologies": [
-      {
-        "id": "google-docs",
-        "name": "Google Docs",
-        "href": "https://docs.google.com/",
-        "group": "document",
-        "category": "Document"
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       },
       {
         "id": "microsoft-word",
         "name": "Microsoft Word",
         "href": "https://www.office.com/launch/word",
-        "group": "document",
-        "category": "Document"
-      }
-    ]
-  },
-  {
-    "id": "spreadsheet",
-    "category": "Spreadsheet",
-    "technologies": [
-      {
-        "id": "google-sheets",
-        "name": "Google Sheets",
-        "href": "https://sheets.google.com/",
-        "group": "spreadsheet",
-        "category": "Spreadsheet"
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       },
       {
         "id": "microsoft-excel",
         "name": "Microsoft Excel",
         "href": "https://www.office.com/launch/excel",
-        "group": "spreadsheet",
-        "category": "Spreadsheet"
-      }
-    ]
-  },
-  {
-    "id": "presentation",
-    "category": "Presentation",
-    "technologies": [
-      {
-        "id": "google-slides",
-        "name": "Google Slides",
-        "href": "https://slides.google.com/",
-        "group": "presentation",
-        "category": "Presentation"
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       },
       {
         "id": "microsoft-powerpoint",
         "name": "Microsoft PowerPoint",
         "href": "https://www.office.com/launch/powerpoint",
-        "group": "presentation",
-        "category": "Presentation"
-      }
-    ]
-  },
-  {
-    "id": "storage",
-    "category": "Cloud Storage",
-    "technologies": [
-      {
-        "id": "google-drive",
-        "name": "Google Drive",
-        "href": "https://drive.google.com/",
-        "group": "storage",
-        "category": "Cloud Storage"
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       },
       {
         "id": "microsoft-onedrive",
         "name": "Microsoft OneDrive",
         "href": "https://onedrive.live.com/",
-        "group": "storage",
-        "category": "Cloud Storage"
-      }
-    ]
-  },
-  {
-    "id": "video",
-    "category": "Video Conferencing",
-    "technologies": [
-      {
-        "id": "google-meet",
-        "name": "Google Meet",
-        "href": "https://meet.google.com/",
-        "group": "video",
-        "category": "Video Conferencing"
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       },
       {
         "id": "microsoft-teams",
         "name": "Microsoft Teams",
         "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
-        "group": "video",
-        "category": "Video Conferencing"
-      }
-    ]
-  },
-  {
-    "id": "messaging",
-    "category": "Messaging",
-    "technologies": [
-      {
-        "id": "google-chat",
-        "name": "Google Chat",
-        "href": "https://chat.google.com/",
-        "group": "messaging",
-        "category": "Messaging"
-      }
-    ]
-  },
-  {
-    "id": "notes",
-    "category": "Notes",
-    "technologies": [
-      {
-        "id": "google-keep",
-        "name": "Google Keep",
-        "href": "https://keep.google.com/",
-        "group": "notes",
-        "category": "Notes"
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       },
       {
         "id": "microsoft-onenote",
         "name": "Microsoft OneNote",
         "href": "https://www.onenote.com/",
-        "group": "notes",
-        "category": "Notes"
+        "group": "microsoft-ecosystem",
+        "category": "Microsoft Ecosystem"
       }
     ]
   }

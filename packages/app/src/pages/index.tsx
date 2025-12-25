@@ -111,12 +111,12 @@ const HomePage: NextPage = () => {
                 <div
                   key={id}
                   title={`${sIndex}. ${category}`}
-                  className={`rounded-full transition-all duration-300 ${
+                  data-tip={`${sIndex}. ${category}`}
+                  className={`z-100 rounded-full transition-all duration-300 ${
                     sectionIndex === sIndex
                       ? 'h-4 w-4 bg-white'
                       : 'h-2 w-2 bg-gray-700'
-                  }`}
-                />
+                  }`}></div>
               ))}
             </div>
           </div>
