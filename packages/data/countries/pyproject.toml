@@ -1,0 +1,10 @@
+[project]
+name = "countries"
+version = "0.0.1"
+description = "Query Countries Ranking"
+readme = "README.md"
+requires-python = "==3.14.2"
+dependencies = [
+    "playwright>=1.57.0",
+    "requests>=2.32.5",
+]

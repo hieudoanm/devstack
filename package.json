@@ -1,17 +1,17 @@
 {
-  "name": "@doi/apps",
+  "name": "@countries/workspaces",
   "version": "0.0.1",
-  "description": "doi",
+  "description": "countries",
   "keywords": [
-    "doi"
+    "countries"
   ],
-  "homepage": "https://hieudoanm.github.io/doi",
+  "homepage": "https://hieudoanm.github.io/countries",
   "bugs": {
-    "url": "https://github.com/hieudoanm/doi/issues"
+    "url": "https://github.com/hieudoanm/countries/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/doi.git"
+    "url": "git+ssh://git@github.com/hieudoanm/countries.git"
   },
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next';
 
 const NODE_ENV = process.env.NODE_ENV ?? 'development';
-const BASE_PATH = 'devstack';
+const BASE_PATH = 'countries';
 
 const nextConfig: NextConfig = {
   trailingSlash: true,

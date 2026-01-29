@@ -14,7 +14,7 @@
     "jsx": "react-jsx",
     "incremental": true,
     "paths": {
-      "@devstack/*": ["./src/*"]
+      "@countries/*": ["./src/*"]
     }
   },
   "include": [

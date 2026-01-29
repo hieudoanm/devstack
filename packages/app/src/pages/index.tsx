@@ -1,128 +1,107 @@
-import technologies from '@devstack/data/technologies.json';
+import countries from '@countries/data/countries.json';
 import { NextPage } from 'next';
-import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useMemo } from 'react';
 
-type Section = {
-  id: string;
-  category: string;
-  technologies: { id: string; name: string; href: string }[];
+type Country = {
+  name: string;
+  official_name: string;
+  region: string;
+  subregion: string;
+  cca2: string;
+  cca3: string;
+  flag: string;
+  passport_rank: number;
+};
+
+const regionBadge: Record<string, string> = {
+  Africa: 'badge-primary',
+  Americas: 'badge-secondary',
+  Antarctic: 'badge-accent',
+  Asia: 'badge-success',
+  Europe: 'badge-warning',
+  Oceania: 'badge-info',
 };
 
 const HomePage: NextPage = () => {
-  const sections = technologies as Section[];
-
-  const [sectionIndex, setSectionIndex] = useState(0);
-  const [techIndex, setTechIndex] = useState(0);
-
-  useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
-      const currentSection = sections[sectionIndex];
-      const techCount = currentSection.technologies.length;
-
-      switch (e.key) {
-        case 'ArrowDown':
-          setSectionIndex((i) => {
-            const next = Math.min(i + 1, sections.length - 1);
-            if (next !== i) setTechIndex(0); // ✅ reset tech index
-            return next;
-          });
-          break;
-
-        case 'ArrowUp':
-          setSectionIndex((i) => {
-            const next = Math.max(i - 1, 0);
-            if (next !== i) setTechIndex(0); // ✅ reset tech index
-            return next;
-          });
-          break;
-
-        case 'ArrowRight':
-          setTechIndex((i) => Math.min(i + 1, techCount - 1));
-          break;
-
-        case 'ArrowLeft':
-          setTechIndex((i) => Math.max(i - 1, 0));
-          break;
-      }
-    };
-
-    window.addEventListener('keydown', onKeyDown);
-    return () => window.removeEventListener('keydown', onKeyDown);
-  }, [sectionIndex, sections]);
+  // Example ranking: alphabetical by country name
+  const rankedCountries = useMemo(() => {
+    return [...(countries as Country[])]
+      .filter(({ passport_rank }) => passport_rank)
+      .sort((a, b) => {
+        if (a.passport_rank === b.passport_rank) {
+          return a.name.localeCompare(b.name);
+        }
+        return a.passport_rank > b.passport_rank ? 1 : -1;
+      });
+  }, []);
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden">
-      {/* Sections container */}
-      <div
-        className="absolute left-0 w-full transition-[top] duration-500 ease-out"
-        style={{
-          top: `-${sectionIndex * 100}vh`,
-        }}>
-        {sections.map(({ id, category, technologies }, sIndex) => (
-          <section
-            key={id}
-            className="flex h-screen w-screen items-center justify-center font-bold">
-            <div className="flex flex-col gap-y-8">
-              <h1 className="text-center text-4xl">
-                {sIndex + 1}. {category}
-              </h1>
+    <div className="bg-base-200 h-screen p-6">
+      <div className="mx-auto max-w-6xl">
+        <h1 className="mb-6 text-3xl font-bold">🌍 Countries Ranking</h1>
 
-              {/* Technology viewport */}
-              <div className="relative mx-auto h-32 w-152 overflow-hidden">
-                <div
-                  className="absolute top-0 flex h-32 w-full items-center gap-x-8 transition-[left] duration-300 ease-out"
-                  style={{
-                    left: `calc(16rem - ${techIndex * 8}rem)`, // 8rem ≈ card width + gap
-                  }}>
-                  {technologies.map(({ id, name, href }, tIndex: number) => (
-                    <div key={id} className="flex w-24 flex-col gap-y-4">
-                      <div
-                        className={`mx-auto aspect-square w-24 rounded-md border ${techIndex === tIndex ? 'border-accent' : 'border-gray-700'} shadow-xl`}
-                      />
-                      <Link
-                        href={href}
-                        target="_blank"
-                        className={`truncate text-center text-xs ${techIndex === tIndex ? 'text-accent' : 'text-gray-700'}`}>
-                        {name}
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              </div>
+        <div className="rounded-box border-base-300 bg-base-100 flex-1 overflow-hidden border">
+          <div className="h-full overflow-auto">
+            <table className="table-zebra table-sm table">
+              <thead className="bg-base-100 sticky top-0 z-10">
+                <tr>
+                  <th>#</th>
+                  <th>Passport Rank</th>
+                  <th>Country</th>
+                  <th>Code</th>
+                  <th>Region</th>
+                  <th>Subregion</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rankedCountries.map((country, index) => (
+                  <tr key={country.cca3}>
+                    <th>{index + 1}</th>
+                    <td className="font-mono">
+                      {country.passport_rank ?? '—'}
+                    </td>
+                    <td>
+                      <div className="flex items-center gap-3">
+                        <span className="text-2xl">{country.flag}</span>
+                        <div>
+                          <div className="font-bold">{country.name}</div>
+                          <div className="text-xs opacity-60">
+                            {country.official_name}
+                          </div>
+                        </div>
+                      </div>
+                    </td>
 
-              {/* Optional indicator */}
-              <p className="text-center text-xs opacity-60">
-                ← → technologies • ↑ ↓ sections
-              </p>
-            </div>
-          </section>
-        ))}
-      </div>
+                    <td>
+                      <div className="flex gap-1">
+                        <span className="badge badge-neutral">
+                          {country.cca2}
+                        </span>
+                        <span className="badge badge-neutral">
+                          {country.cca3}
+                        </span>
+                      </div>
+                    </td>
 
-      <div className="absolute top-0 right-8 bottom-0 my-auto flex h-16 w-8 items-center justify-center rounded-full border border-gray-700">
-        <div className="relative h-12 w-4 overflow-hidden">
-          <div
-            className="absolute right-0 left-0"
-            style={{
-              // center the active dot in the container
-              top: 16 - sectionIndex * 16,
-            }}>
-            <div className="flex flex-col items-center justify-start gap-y-2">
-              {sections.map(({ id, category }, sIndex) => (
-                <div
-                  key={id}
-                  title={`${sIndex}. ${category}`}
-                  data-tip={`${sIndex}. ${category}`}
-                  className={`z-100 rounded-full transition-all duration-300 ${
-                    sectionIndex === sIndex
-                      ? 'h-4 w-4 bg-white'
-                      : 'h-2 w-2 bg-gray-700'
-                  }`}></div>
-              ))}
-            </div>
+                    <td>
+                      <span className={`badge ${regionBadge[country.region]}`}>
+                        {country.region || '—'}
+                      </span>
+                    </td>
+
+                    <td className="text-sm opacity-80">
+                      {country.subregion || '—'}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
+
+        <p className="mt-4 text-sm opacity-60">
+          Total: {rankedCountries.length} countries
+        </p>
       </div>
     </div>
   );
