@@ -1,4 +1,5 @@
 import '@countries/styles/globals.css';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import type { AppProps } from 'next/app';
 import { Geist, Geist_Mono } from 'next/font/google';
 import Head from 'next/head';
@@ -20,9 +21,11 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       <Head>
         <title>Countries</title>
       </Head>
-      <div className={`${geistSans.className} ${geistMono.className}`}>
-        <Component {...pageProps} />
-      </div>
+      <QueryClientProvider client={new QueryClient()}>
+        <div className={`${geistSans.className} ${geistMono.className}`}>
+          <Component {...pageProps} />
+        </div>
+      </QueryClientProvider>
     </>
   );
 };

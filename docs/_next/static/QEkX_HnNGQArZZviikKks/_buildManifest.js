@@ -11,6 +11,9 @@ self.__BUILD_MANIFEST = {
   "/_error": [
     "static/chunks/c23ebeac943bad48.js"
   ],
+  "/weather": [
+    "static/chunks/a7fef6a5588f15b8.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
@@ -21,6 +24,7 @@ self.__BUILD_MANIFEST = {
     "/404",
     "/500",
     "/_app",
-    "/_error"
+    "/_error",
+    "/weather"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
